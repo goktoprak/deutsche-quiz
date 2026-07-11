@@ -3,6 +3,8 @@
 A static German grammar quiz site. All content lives in `data/questions.json` —
 you never have to touch the HTML/JS to add new topics or questions.
 
+Live: https://goktoprak.github.io/deutsche-quiz/
+
 **Features**
 
 - Topics are generated automatically from the questions file
