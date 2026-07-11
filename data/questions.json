@@ -159,6 +159,167 @@
           "answer": "zu",
           "tip": "Ist er dort (Position) oder geht er dorthin (Richtung)?",
           "explanation": "\"zu Hause\" = at home (location); \"nach Hause\" = (going) home (direction): Er ist zu Hause, but Er geht nach Hause. Two fixed expressions that are easy to mix up."
+        },
+        {
+          "type": "blank",
+          "question": "Er ist ___ zwei Jahren nach Deutschland gekommen.",
+          "answers": ["vor"],
+          "tip": "Ein Zeitpunkt in der Vergangenheit – nicht \"seit\"! Er kam einmal, vor genau zwei Jahren.",
+          "explanation": "\"vor\" + dative + time = \"ago\": vor zwei Jahren = two years ago (a single point in the past). Compare \"seit zwei Jahren\" = for two years and still ongoing. vor = ago, seit = since/for."
+        },
+        {
+          "type": "choice",
+          "question": "Wir gehen heute Abend ___ Kino.",
+          "options": ["ins", "im", "am"],
+          "answer": "ins",
+          "tip": "Wohin gehen wir? Bewegung! in + das = ?",
+          "explanation": "Going to the movies is movement into the building → in + das = ins: Wir gehen ins Kino. \"im Kino\" (in dem) would describe being there already: Wir sitzen im Kino."
+        },
+        {
+          "type": "blank",
+          "question": "Ich habe gestern lange ___ meiner Oma telefoniert.",
+          "answers": ["mit"],
+          "tip": "telefonieren + ? + Person – wie im Deutschen üblich: Man spricht MIT jemandem.",
+          "explanation": "\"mit\" + dative for the person on the other end: mit meiner Oma telefonieren = to talk to my grandma on the phone. Same with sprechen/reden: Ich spreche mit dir."
+        },
+        {
+          "type": "choice",
+          "question": "Es ist schon spät – ich gehe jetzt ___ Hause.",
+          "options": ["nach", "zu", "in"],
+          "answer": "nach",
+          "tip": "Richtung! Du bist noch nicht dort. (Das Gegenteil von \"Ich bin ___ Hause.\")",
+          "explanation": "Direction home = \"nach Hause\": Ich gehe nach Hause. Being at home = \"zu Hause\": Ich bin zu Hause. The mirror image of the earlier question — movement takes nach, location takes zu."
+        },
+        {
+          "type": "choice",
+          "question": "Hast du eine Tablette ___ Kopfschmerzen?",
+          "options": ["gegen", "für", "aus"],
+          "answer": "gegen",
+          "tip": "Die Tablette kämpft sozusagen ___ die Schmerzen!",
+          "explanation": "Remedies work \"gegen\" (against) an illness: eine Tablette gegen Kopfschmerzen, ein Mittel gegen Husten. English says \"for headaches\", which tempts you towards \"für\" — a classic trap."
+        },
+        {
+          "type": "choice",
+          "question": "Entschuldigung, wie komme ich ___ Bahnhof?",
+          "options": ["zum", "nach", "ins"],
+          "answer": "zum",
+          "tip": "Nach dem Weg fragen: Gebäude und Orte in der Stadt → zu + Artikel.",
+          "explanation": "Asking directions to places in town uses \"zu\" + article: zum Bahnhof, zum Markt, zur Post. \"nach\" is for cities and countries (nach Berlin), and \"ins\" only for places you enter for an activity (ins Kino)."
+        },
+        {
+          "type": "blank",
+          "question": "Der Tisch ist ___ Holz.",
+          "answers": ["aus"],
+          "tip": "Material! Woraus ist der Tisch gemacht?",
+          "explanation": "Materials take \"aus\": aus Holz (wood), aus Glas, aus Metall, aus Baumwolle. The same \"aus\" as for origin — the table \"comes from\" wood, so to speak."
+        },
+        {
+          "type": "choice",
+          "question": "___ Anfang war der Deutschkurs ganz leicht.",
+          "options": ["Am", "Im", "Um"],
+          "answer": "Am",
+          "tip": "Feste Wendung: ___ Anfang, ___ Ende, ___ Wochenende.",
+          "explanation": "\"am Anfang\" (at the beginning) and \"am Ende\" (at the end) are fixed expressions with an + dem = am. Also: am Wochenende, am Morgen, am Abend."
+        },
+        {
+          "type": "choice",
+          "question": "Ich bin ___ Jahr 1995 geboren.",
+          "options": ["im", "am", "um"],
+          "answer": "im",
+          "tip": "Mit dem Wort \"Jahr\" braucht man in + dem. (Ohne \"Jahr\" braucht man gar keine Präposition!)",
+          "explanation": "With the word \"Jahr\", use im: im Jahr 1995. Interesting quirk: without it, German uses NO preposition at all — Ich bin 1995 geboren (never \"in 1995\" like English!)."
+        },
+        {
+          "type": "choice",
+          "question": "Er ist 25, aber er wohnt noch ___ seinen Eltern.",
+          "options": ["bei", "mit", "zu"],
+          "answer": "bei",
+          "tip": "Wohnen im Haus einer Person → dieselbe Präposition wie bei Arbeitgebern.",
+          "explanation": "Living at someone's place takes \"bei\" + dative: bei seinen Eltern, bei einer Freundin wohnen. \"mit seinen Eltern\" would only work with an addition like \"zusammen\" and is not the standard idiom."
+        },
+        {
+          "type": "choice",
+          "question": "___ nächster Woche habe ich endlich Urlaub.",
+          "options": ["Ab", "Seit", "Von"],
+          "answer": "Ab",
+          "tip": "Der Startpunkt liegt in der Zukunft!",
+          "explanation": "\"ab\" marks a starting point in the future: ab nächster Woche, ab morgen = starting next week / from tomorrow. \"seit\" only works for things that began in the past."
+        },
+        {
+          "type": "choice",
+          "question": "Alle kommen zur Party, ___ Tim – er ist krank.",
+          "options": ["außer", "gegen", "seit"],
+          "answer": "außer",
+          "tip": "Alle – nur eine Person nicht. Welche Präposition drückt die Ausnahme aus?",
+          "explanation": "\"außer\" + dative = except (for): Alle außer Tim = everyone except Tim. A very useful little preposition: Ich esse alles außer Fisch."
+        },
+        {
+          "type": "choice",
+          "question": "Der Arzt hat ___ 9 und 12 Uhr Sprechstunde.",
+          "options": ["zwischen", "von", "um"],
+          "answer": "zwischen",
+          "tip": "Das Wort \"und\" verrät den Partner! (\"von\" hätte einen anderen Partner: \"bis\".)",
+          "explanation": "\"zwischen ... und\" = between ... and: zwischen 9 und 12 Uhr. The connector word decides: zwischen pairs with \"und\", while von pairs with \"bis\" (von 9 bis 12 Uhr)."
+        },
+        {
+          "type": "blank",
+          "question": "Sie wohnt ___ der Nähe vom Bahnhof.",
+          "answers": ["in"],
+          "tip": "Feste Wendung: ___ der Nähe = nicht weit weg.",
+          "explanation": "\"in der Nähe\" (nearby / close to) is a fixed expression with in + dative: Sie wohnt in der Nähe vom Bahnhof = She lives near the station."
+        },
+        {
+          "type": "choice",
+          "question": "Der Deutschkurs dauert ___ Ende Juli.",
+          "options": ["bis", "zu", "nach"],
+          "answer": "bis",
+          "tip": "Wann ist der Kurs zu Ende? Der Endpunkt!",
+          "explanation": "\"bis\" marks the end point: bis Ende Juli = until the end of July. With time expressions it usually stands alone (bis morgen, bis 18 Uhr); with places it combines: bis zum Bahnhof."
+        },
+        {
+          "type": "choice",
+          "question": "___ Regen bleiben die Kinder drinnen.",
+          "options": ["Bei", "Mit", "Für"],
+          "answer": "Bei",
+          "tip": "\"Wenn es regnet, …\" – welche Präposition sagt das kürzer?",
+          "explanation": "\"bei\" + weather/conditions means \"when there is ...\": bei Regen = when it rains, bei schönem Wetter = in nice weather. A compact alternative to a \"wenn\" clause."
+        },
+        {
+          "type": "choice",
+          "question": "Wir sind gerade ___ Urlaub an der Ostsee.",
+          "options": ["im", "am", "beim"],
+          "answer": "im",
+          "tip": "Feste Wendung: ___ Urlaub sein, ___ Urlaub fahren.",
+          "explanation": "\"im Urlaub\" (on vacation) is a fixed expression: Wir sind im Urlaub. Direction uses \"in\" + accusative: Wir fahren in den Urlaub. English \"on vacation\" misleads towards \"am\"."
+        },
+        {
+          "type": "choice",
+          "question": "Sie ist schon ___ dem Weg zur Schule.",
+          "options": ["auf", "in", "an"],
+          "answer": "auf",
+          "tip": "Feste Wendung: ___ dem Weg sein = unterwegs sein.",
+          "explanation": "\"auf dem Weg\" (on the way) is a fixed expression: Sie ist auf dem Weg zur Schule = She's on her way to school. Literally you stand \"on\" the path — here German and English happen to agree."
+        },
+        {
+          "type": "choice",
+          "question": "___ meiner Meinung ist der Film viel zu lang.",
+          "options": ["Nach", "Von", "Aus"],
+          "answer": "Nach",
+          "tip": "\"Meiner Meinung ___\" geht auch – dieselbe Präposition, andere Position!",
+          "explanation": "\"nach meiner Meinung\" = in my opinion. The preposition can even follow the noun: \"meiner Meinung nach\" — both orders are correct. Useful for B1 discussions: Meiner Meinung nach ist das falsch."
+        },
+        {
+          "type": "order",
+          "question": "Bilde einen Satz:",
+          "words": ["Ich", "fahre", "morgen", "mit", "dem", "Zug", "nach", "Berlin"],
+          "answers": [
+            "Ich fahre morgen mit dem Zug nach Berlin",
+            "Morgen fahre ich mit dem Zug nach Berlin",
+            "Mit dem Zug fahre ich morgen nach Berlin",
+            "Nach Berlin fahre ich morgen mit dem Zug"
+          ],
+          "tip": "Reihenfolge der Angaben: Wann (morgen) → Wie (mit dem Zug) → Wohin (nach Berlin).",
+          "explanation": "The neutral order of adverbials is time – manner – place (\"te-ka-mo-lo\"): morgen (when) → mit dem Zug (how) → nach Berlin (where to): Ich fahre morgen mit dem Zug nach Berlin."
         }
       ]
     },
