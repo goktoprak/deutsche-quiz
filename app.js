@@ -4,6 +4,7 @@ const app = document.getElementById('app');
 
 const TIP_DELAY_SECONDS = 5;
 const MIXED_QUESTION_COUNT = 20;
+const BATCH_SIZE = 10;
 
 const state = {
   data: null,
@@ -92,7 +93,7 @@ function showCategories() {
     btn.appendChild(el('h3', null, cat.name));
     btn.appendChild(el('p', null, cat.description || ''));
     btn.appendChild(el('span', 'cat-count', cat.questions.length + ' Fragen'));
-    btn.addEventListener('click', () => startQuiz(cat.name, shuffle(cat.questions)));
+    btn.addEventListener('click', () => showBatches(cat));
     grid.appendChild(btn);
   }
 
@@ -109,6 +110,33 @@ function showCategories() {
   grid.appendChild(mixedBtn);
 
   app.append(title, grid);
+}
+
+function showBatches(cat) {
+  if (cat.questions.length <= BATCH_SIZE) {
+    startQuiz(cat.name, shuffle(cat.questions));
+    return;
+  }
+  app.innerHTML = '';
+  const title = el('h2', 'screen-title', (cat.icon ? cat.icon + ' ' : '') + cat.name);
+  const grid = el('div', 'category-grid');
+  const batchCount = Math.ceil(cat.questions.length / BATCH_SIZE);
+  for (let i = 0; i < batchCount; i++) {
+    const questions = cat.questions.slice(i * BATCH_SIZE, (i + 1) * BATCH_SIZE);
+    const first = i * BATCH_SIZE + 1;
+    const btn = el('button', 'category-card');
+    btn.appendChild(el('div', 'cat-icon', '📝'));
+    btn.appendChild(el('h3', null, 'Teil ' + (i + 1)));
+    btn.appendChild(el('p', null, 'Fragen ' + first + ' bis ' + (first + questions.length - 1)));
+    btn.appendChild(el('span', 'cat-count', questions.length + ' Fragen'));
+    btn.addEventListener('click', () => startQuiz(cat.name + ' · Teil ' + (i + 1), shuffle(questions)));
+    grid.appendChild(btn);
+  }
+  const actions = el('div', 'actions');
+  const back = el('button', 'btn secondary', '← Alle Themen');
+  back.addEventListener('click', showCategories);
+  actions.appendChild(back);
+  app.append(title, grid, actions);
 }
 
 /* ---------- quiz flow ---------- */

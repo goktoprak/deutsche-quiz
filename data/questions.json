@@ -120,6 +120,45 @@
           "answer": "Im",
           "tip": "Jahreszeiten und Monate benutzen dieselbe Präposition: ___ Sommer, ___ August.",
           "explanation": "Seasons and months take \"in\" + dative, contracted: in dem Winter → im Winter. \"am\" is for days (am Montag) and \"um\" is for clock times (um 8 Uhr)."
+        },
+        {
+          "type": "choice",
+          "question": "Wie sagt man das ___ Deutsch?",
+          "options": ["auf", "in", "mit"],
+          "answer": "auf",
+          "tip": "Eine feste Wendung mit Sprachen: etwas ___ Deutsch / ___ Englisch sagen.",
+          "explanation": "With languages, use \"auf\": auf Deutsch, auf Englisch — Wie sagt man das auf Deutsch? A fixed expression worth memorizing; \"in Deutsch\" is not standard here."
+        },
+        {
+          "type": "choice",
+          "question": "Ich komme heute ___ 18 Uhr nach Hause – ich weiß es noch nicht genau.",
+          "options": ["gegen", "um", "seit"],
+          "answer": "gegen",
+          "tip": "\"Ich weiß es noch nicht genau\" – die Zeit ist ungefähr!",
+          "explanation": "\"gegen\" + time means \"around, approximately\": gegen 18 Uhr = around 6 pm. \"um 18 Uhr\" would be an exact time, which contradicts \"ich weiß es noch nicht genau\"."
+        },
+        {
+          "type": "choice",
+          "question": "Ich arbeite ___ Montag bis Freitag.",
+          "options": ["von", "seit", "ab"],
+          "answer": "von",
+          "tip": "Das Wort \"bis\" hat einen festen Partner.",
+          "explanation": "Time spans use the pair \"von ... bis\": von Montag bis Freitag = from Monday to Friday. \"seit\" means \"since\" and \"ab\" means \"starting from\" — neither pairs with \"bis\"."
+        },
+        {
+          "type": "blank",
+          "question": "Wir fahren ___ den Sommerferien ans Meer.",
+          "answers": ["in"],
+          "tip": "Wann fahren wir? Während dieser Zeit – Präposition + \"den\".",
+          "explanation": "\"in\" + dative expresses \"during\" a period: in den Sommerferien, in der Nacht, in dieser Woche. \"den Sommerferien\" is dative plural — the -n on the article gives it away."
+        },
+        {
+          "type": "choice",
+          "question": "Er ist gerade nicht ___ Hause.",
+          "options": ["zu", "nach", "bei"],
+          "answer": "zu",
+          "tip": "Ist er dort (Position) oder geht er dorthin (Richtung)?",
+          "explanation": "\"zu Hause\" = at home (location); \"nach Hause\" = (going) home (direction): Er ist zu Hause, but Er geht nach Hause. Two fixed expressions that are easy to mix up."
         }
       ]
     },
@@ -239,6 +278,56 @@
           "answers": ["dem"],
           "tip": "\"liegen\" = Position, keine Bewegung. Wo liegen die Socken?",
           "explanation": "\"liegen\" describes location (Wo?) → dative: das Bett → unter dem Bett. If you were putting them there, it would be accusative: Ich lege die Socken unter das Bett."
+        },
+        {
+          "type": "choice",
+          "question": "Das Poster hängt schon ___ der Wand.",
+          "options": ["an", "auf", "in"],
+          "answer": "an",
+          "tip": "Senkrechte Flächen (Wand, Tafel, Fenster) haben ihre eigene Präposition.",
+          "explanation": "Vertical surfaces take \"an\": an der Wand, an der Tafel. \"auf\" is for horizontal surfaces (auf dem Tisch). Here the poster is already hanging (location) → dative: an der Wand."
+        },
+        {
+          "type": "choice",
+          "question": "Die Kinder schwimmen ___ See.",
+          "options": ["im", "in den", "ans"],
+          "answer": "im",
+          "tip": "Sie sind schon im Wasser (Position) – und \"in dem\" kann man verkürzen.",
+          "explanation": "Swimming happens inside the water (location, Wo?) → dative: in dem See → contracted to \"im See\". \"in den See\" (accusative) would mean jumping into it, and \"ans Meer/an den See\" is for going to the shore."
+        },
+        {
+          "type": "blank",
+          "question": "Ich stelle die Blumen in ___ Vase. (die Vase)",
+          "answers": ["die"],
+          "tip": "\"stellen\" = Bewegung. Wohin kommen die Blumen?",
+          "explanation": "\"stellen\" implies movement towards a goal → accusative. Feminine \"die\" stays \"die\" in the accusative: in die Vase. Afterwards: Die Blumen stehen in der Vase (dative)."
+        },
+        {
+          "type": "choice",
+          "question": "Der Mülleimer steht neben ___ Tür.",
+          "options": ["der", "die", "das"],
+          "answer": "der",
+          "tip": "\"stehen\" = Position. Und die Tür ist feminin.",
+          "explanation": "Location (Wo?) → dative. Feminine \"die\" becomes \"der\" in the dative: neben der Tür. \"neben die Tür\" would be the direction you move something to."
+        },
+        {
+          "type": "choice",
+          "question": "Wir fahren am Wochenende ___ Meer.",
+          "options": ["ans", "am", "im"],
+          "answer": "ans",
+          "tip": "\"fahren\" = Bewegung dorthin! an + das = ?",
+          "explanation": "Traveling to the sea is movement (Wohin?) → accusative: an das Meer → contracted to \"ans Meer\". Once you're there: Wir sind am Meer (an dem = am, dative)."
+        },
+        {
+          "type": "order",
+          "question": "Bilde einen Satz:",
+          "words": ["Die", "Katze", "schläft", "unter", "dem", "Tisch"],
+          "answers": [
+            "Die Katze schläft unter dem Tisch",
+            "Unter dem Tisch schläft die Katze"
+          ],
+          "tip": "Wo schläft die Katze? Position → Dativ. Und das Verb steht auf Position 2.",
+          "explanation": "Sleeping is a location, not a movement → dative: unter dem Tisch. The conjugated verb keeps second position: Die Katze schläft unter dem Tisch — or with inversion: Unter dem Tisch schläft die Katze."
         }
       ]
     },
@@ -359,6 +448,52 @@
           "answers": ["einen"],
           "tip": "\"sehen\" + Akkusativ, und der Hund ist maskulin.",
           "explanation": "Direct object of \"sehen\" → accusative. Masculine \"ein\" becomes \"einen\": Ich sehe einen Hund. Only the masculine changes in the accusative — feminine and neuter articles stay the same."
+        },
+        {
+          "type": "blank",
+          "question": "Der Pullover gefällt ___ nicht. (ich)",
+          "answers": ["mir"],
+          "tip": "\"gefallen\" funktioniert wie \"gehören\": Die Person steht im Dativ.",
+          "explanation": "With \"gefallen\", the person is in the dative: Der Pullover gefällt mir nicht = I don't like the sweater (literally: it doesn't please me). Dative pronouns: mir, dir, ihm, ihr, uns, euch, ihnen."
+        },
+        {
+          "type": "choice",
+          "question": "Kannst du ___ bitte das Salz geben?",
+          "options": ["mir", "mich", "ich"],
+          "answer": "mir",
+          "tip": "Wem gibst du das Salz? Person = Dativ, Sache = Akkusativ.",
+          "explanation": "The receiver is the indirect object → dative: Gib mir das Salz. \"mich\" is accusative and would be the thing being given — which would make for a strange sentence!"
+        },
+        {
+          "type": "choice",
+          "question": "Ich liebe ___!",
+          "options": ["dich", "dir", "du"],
+          "answer": "dich",
+          "tip": "\"lieben\" braucht ein direktes Objekt. Wen liebe ich?",
+          "explanation": "\"lieben\" takes the accusative: Ich liebe dich. Accusative pronouns: mich, dich, ihn, sie, es, uns, euch, sie. Probably the most famous accusative in the German language!"
+        },
+        {
+          "type": "blank",
+          "question": "Wir besuchen ___ Großmutter am Sonntag. (unser)",
+          "answers": ["unsere"],
+          "tip": "\"besuchen\" + Akkusativ. Die Großmutter ist feminin.",
+          "explanation": "\"besuchen\" takes the accusative. Feminine accusative of \"unser\" is \"unsere\": Wir besuchen unsere Großmutter. Feminine looks the same in nominative and accusative."
+        },
+        {
+          "type": "choice",
+          "question": "Das Handy gehört ___ Schwester.",
+          "options": ["meiner", "meine", "meinem"],
+          "answer": "meiner",
+          "tip": "\"gehören\" + Dativ. Die Schwester ist feminin.",
+          "explanation": "\"gehören\" is a dative verb, and the feminine dative of \"meine\" is \"meiner\": Das Handy gehört meiner Schwester. Compare: meinem Bruder (masculine), meinen Eltern (plural)."
+        },
+        {
+          "type": "choice",
+          "question": "Der Chef dankt ___ Mitarbeitern für die gute Arbeit.",
+          "options": ["den", "die", "der"],
+          "answer": "den",
+          "tip": "\"danken\" + Dativ, und \"Mitarbeitern\" ist Plural.",
+          "explanation": "\"danken\" takes the dative, and the dative plural article is \"den\": Er dankt den Mitarbeitern. The -n on \"Mitarbeitern\" is the dative plural marker on the noun."
         }
       ]
     },
@@ -484,6 +619,43 @@
           "answer": "sprachen",
           "tip": "\"sprechen\" ist stark: kein -te! sprechen → spr_chen.",
           "explanation": "\"sprechen\" is strong: sprechen → sprach → wir sprachen. Strong verbs never take the -te ending, so \"sprechten\" and \"sprachten\" don't exist."
+        },
+        {
+          "type": "blank",
+          "question": "Sie ___ mir gestern einen langen Brief. (schreiben)",
+          "answers": ["schrieb"],
+          "tip": "Starkes Verb: schreiben → schr__b.",
+          "explanation": "\"schreiben\" is strong: schreiben → schrieb. The pattern ei → ie appears in many strong verbs: schreiben → schrieb, bleiben → blieb, steigen → stieg."
+        },
+        {
+          "type": "choice",
+          "question": "Er ___ mich gestern um Hilfe.",
+          "options": ["bat", "bittete", "bitte"],
+          "answer": "bat",
+          "tip": "\"bitten\" ist stark – kein -te!",
+          "explanation": "\"bitten\" (to ask for) is strong: bitten → bat: Er bat mich um Hilfe. \"bittete\" doesn't exist. Don't confuse \"bitten → bat\" with \"bieten → bot\" (to offer)."
+        },
+        {
+          "type": "blank",
+          "question": "Wir ___ letzten Sommer mit dem Zug nach Wien. (fahren)",
+          "answers": ["fuhren"],
+          "tip": "Starkes Verb: fahren → f_hren.",
+          "explanation": "\"fahren\" is strong with a vowel change a → u: fahren → fuhr → wir fuhren. Same pattern: tragen → trug, schlagen → schlug, waschen → wusch."
+        },
+        {
+          "type": "choice",
+          "question": "Ich ___ dich gestern dreimal an, aber du warst nicht da.",
+          "options": ["rief", "rufte", "riefe"],
+          "answer": "rief",
+          "tip": "\"anrufen\" ist stark und trennbar: Die Vorsilbe wandert ans Satzende.",
+          "explanation": "\"rufen\" is strong: rufen → rief, so \"anrufen\" becomes \"rief ... an\": Ich rief dich an. \"rufte\" doesn't exist, and \"riefe\" is Konjunktiv II, not simple past."
+        },
+        {
+          "type": "blank",
+          "question": "Als Kind ___ ich nur am Wochenende fernsehen. (dürfen)",
+          "answers": ["durfte"],
+          "tip": "Modalverb im Präteritum: Der Umlaut verschwindet!",
+          "explanation": "Modal verbs lose their umlaut in the Präteritum and take -te: dürfen → durfte, können → konnte, müssen → musste. \"Als Kind durfte ich ...\" = As a child I was only allowed to ..."
         }
       ]
     },
@@ -596,6 +768,62 @@
           "answer": "deshalb",
           "tip": "Nach der Lücke folgt sofort das Verb \"komme\" – welcher Konnektor steht auf Position 1?",
           "explanation": "\"deshalb\" (therefore) states the consequence and occupies position 1, so the verb follows immediately: ..., deshalb komme ich zu spät. \"weil\" gives a reason and would push the verb to the end."
+        },
+        {
+          "type": "choice",
+          "question": "Nimm dir etwas zu essen mit, ___ du unterwegs Hunger bekommst.",
+          "options": ["falls", "dass", "denn"],
+          "answer": "falls",
+          "tip": "Vielleicht bekommst du Hunger, vielleicht auch nicht – für diesen Fall!",
+          "explanation": "\"falls\" (in case) covers a possible situation: Take food along in case you get hungry. \"denn\" would need normal word order, and \"dass\" doesn't express a condition."
+        },
+        {
+          "type": "choice",
+          "question": "___ er gefrühstückt hatte, ging er zur Arbeit.",
+          "options": ["Nachdem", "Bevor", "Denn"],
+          "answer": "Nachdem",
+          "tip": "Zuerst das Frühstück, dann die Arbeit. Welche Reihenfolge zeigt der Konnektor?",
+          "explanation": "\"nachdem\" (after) marks the earlier action, which uses a past-before-past tense (Plusquamperfekt: hatte gefrühstückt): After he had eaten breakfast, he went to work. \"bevor\" would reverse the order of events."
+        },
+        {
+          "type": "choice",
+          "question": "___ der Lehrer erklärt, machen sich die Schüler Notizen.",
+          "options": ["Während", "Ob", "Denn"],
+          "answer": "Während",
+          "tip": "Beide Dinge passieren gleichzeitig.",
+          "explanation": "\"während\" (while) expresses that two things happen at the same time: While the teacher explains, the students take notes. As a preposition it also means \"during\": während des Unterrichts."
+        },
+        {
+          "type": "order",
+          "question": "Vervollständige: „Er kommt zu spät, …“",
+          "words": ["obwohl", "er", "ein", "Taxi", "genommen", "hat"],
+          "answers": ["obwohl er ein Taxi genommen hat"],
+          "tip": "Nebensatz: Das konjugierte Verb (\"hat\") geht ganz ans Ende – sogar hinter das Partizip.",
+          "explanation": "In a subordinate clause the conjugated verb goes last, even after the participle: ... obwohl er ein Taxi genommen hat. In a main clause it would be: Er hat ein Taxi genommen."
+        },
+        {
+          "type": "choice",
+          "question": "Zuerst machte er das Abitur, ___ studierte er in München.",
+          "options": ["danach", "denn", "weil"],
+          "answer": "danach",
+          "tip": "Reihenfolge: zuerst …, ___ … Und nach der Lücke kommt sofort das Verb.",
+          "explanation": "\"danach\" (after that) expresses sequence and takes position 1, so the verb follows directly: ..., danach studierte er in München. Useful sequence words: zuerst, dann, danach, schließlich."
+        },
+        {
+          "type": "choice",
+          "question": "Ich verstehe nicht, ___ diese Kaffeemaschine funktioniert.",
+          "options": ["wie", "dass", "weil"],
+          "answer": "wie",
+          "tip": "Eine indirekte Frage: Auf welche W-Frage gibt es hier keine Antwort?",
+          "explanation": "Question words like wie, wo, warum, wann can introduce indirect questions: Ich verstehe nicht, wie sie funktioniert = I don't understand how it works. \"dass\" would state a fact, which makes no sense after \"ich verstehe nicht\" here."
+        },
+        {
+          "type": "choice",
+          "question": "Er spricht schon sehr gut Deutsch, ___ er erst seit einem Jahr in Deutschland lebt.",
+          "options": ["obwohl", "weil", "deshalb"],
+          "answer": "obwohl",
+          "tip": "Sehr gutes Deutsch nach nur einem Jahr – das ist überraschend!",
+          "explanation": "\"obwohl\" (although) marks a surprising contrast: He speaks very good German although he has only lived in Germany for a year. \"weil\" would present it as the logical cause, which doesn't fit \"erst\" (only)."
         }
       ]
     },
@@ -703,6 +931,58 @@
           "answer": "gesucht",
           "tip": "\"suchen\" ist ein schwaches Verb: ge- + Stamm + ?",
           "explanation": "\"suchen\" is weak: ge + such + t = gesucht. \"gesuchen\" wrongly borrows the strong -en ending, and \"suchte\" is Präteritum — after \"habe\" you need the Partizip II."
+        },
+        {
+          "type": "choice",
+          "question": "Gestern ___ es den ganzen Tag geregnet.",
+          "options": ["hat", "ist", "habt"],
+          "answer": "hat",
+          "tip": "Wetter-Verben (regnen, schneien) – haben oder sein?",
+          "explanation": "Weather verbs take \"haben\": Es hat geregnet, es hat geschneit. No movement from A to B, no change of state → haben. And \"es\" is third person singular → hat."
+        },
+        {
+          "type": "blank",
+          "question": "Ich habe zwei Stunden auf dich ___! (warten)",
+          "answers": ["gewartet"],
+          "tip": "Schwaches Verb. Der Stamm endet auf -t, deshalb kommt ein extra \"e\": ge- + Stamm + -et.",
+          "explanation": "Verbs whose stem ends in -t or -d insert an e before the final -t: warten → gewartet, arbeiten → gearbeitet, reden → geredet. Otherwise it would be unpronounceable."
+        },
+        {
+          "type": "blank",
+          "question": "Er hat mir die ganze Geschichte ___. (erzählen)",
+          "answers": ["erzählt"],
+          "tip": "Vorsicht: Verben mit er- bekommen KEIN \"ge\"!",
+          "explanation": "Inseparable prefixes (er-, be-, ver-, ent-, zer-) block the \"ge\": erzählen → erzählt (not \"geerzählt\"). Same pattern: bezahlen → bezahlt, verkaufen → verkauft."
+        },
+        {
+          "type": "choice",
+          "question": "Sie ist letztes Jahr nach Kanada ___.",
+          "options": ["ausgewandert", "ausgewandern", "auswandert"],
+          "answer": "ausgewandert",
+          "tip": "Trennbares, schwaches Verb: aus + ge + wandert.",
+          "explanation": "Separable verbs put \"ge\" after the prefix: aus-ge-wandert. \"auswandern\" (to emigrate) is movement to a new place, so it takes \"sein\": Sie ist ausgewandert."
+        },
+        {
+          "type": "blank",
+          "question": "Hast du gut ___? (schlafen)",
+          "answers": ["geschlafen"],
+          "tip": "Starkes Verb: ge- + Stamm + -en. (Und hier ohne \"ein-\"!)",
+          "explanation": "\"schlafen\" is strong: geschlafen. Note the contrast with \"einschlafen\": Ich habe gut geschlafen (haben — a state), but Ich bin schnell eingeschlafen (sein — a change of state)."
+        },
+        {
+          "type": "choice",
+          "question": "Beeil dich, der Film ___ schon angefangen!",
+          "options": ["hat", "ist", "habt"],
+          "answer": "hat",
+          "tip": "Überraschung: \"anfangen\" nimmt NICHT \"sein\", obwohl es wie eine Veränderung klingt!",
+          "explanation": "\"anfangen\" and \"beginnen\" take \"haben\", even though they feel like a change of state: Der Film hat angefangen. Das Konzert hat begonnen. A common trap — memorize these two."
+        },
+        {
+          "type": "blank",
+          "question": "Ich habe mein Portemonnaie zu Hause ___. (vergessen)",
+          "answers": ["vergessen"],
+          "tip": "Verb mit ver- → kein \"ge\". Wie sieht das Partizip aus?",
+          "explanation": "\"vergessen\" has the inseparable prefix ver-, so no \"ge\" — and its Partizip II happens to look exactly like the infinitive: vergessen → vergessen. Ich habe es vergessen = I forgot it."
         }
       ]
     },
@@ -808,6 +1088,71 @@
           "answers": ["kann"],
           "tip": "Fähigkeit. sie (Singular) – ohne Umlaut!",
           "explanation": "\"können\" expresses ability: sie kann = she can. Third person singular takes no umlaut and no -t: sie kann (not \"sie könnt\" — that's the ihr-form)."
+        },
+        {
+          "type": "choice",
+          "question": "___ Sie mir bitte sagen, wo der Bahnhof ist?",
+          "options": ["Könnten", "Kannst", "Könnt"],
+          "answer": "Könnten",
+          "tip": "Höfliche Frage an eine fremde Person (Sie-Form!).",
+          "explanation": "With the formal \"Sie\" you need the Sie-form: Könnten Sie ...? The Konjunktiv II form \"könnten\" is extra polite — the standard way to ask strangers for help. \"Kannst\" (du) and \"könnt\" (ihr) are informal."
+        },
+        {
+          "type": "choice",
+          "question": "Ich ___ jetzt leider gehen, mein Zug fährt gleich.",
+          "options": ["muss", "darf", "soll"],
+          "answer": "muss",
+          "tip": "Der Zug fährt gleich – es gibt keine Wahl!",
+          "explanation": "\"müssen\" = necessity, no choice: Ich muss gehen, my train is leaving. \"darf\" would mean I'm allowed to go and \"soll\" that someone told me to — neither fits the urgency."
+        },
+        {
+          "type": "blank",
+          "question": "Du ___ nicht so viel Cola trinken, das ist ungesund. (sollen)",
+          "answers": ["sollst", "solltest"],
+          "tip": "Ein Rat an \"du\". Es gibt zwei mögliche Formen!",
+          "explanation": "Advice with \"sollen\": Du sollst nicht ... (fairly direct) or softer with Konjunktiv II: Du solltest nicht ... = you shouldn't. Both work here; \"solltest\" sounds friendlier."
+        },
+        {
+          "type": "choice",
+          "question": "___ ihr am Wochenende mit ins Kino kommen?",
+          "options": ["Wollt", "Willst", "Wollen"],
+          "answer": "Wollt",
+          "tip": "Die Frage geht an \"ihr\".",
+          "explanation": "ihr wollt → Wollt ihr ...? \"Willst\" is the du-form and \"wollen\" belongs to wir/sie/Sie. The ihr-forms of modals are regular: ihr wollt, ihr könnt, ihr müsst."
+        },
+        {
+          "type": "blank",
+          "question": "Ich ___ bitte einen Kaffee und ein Stück Kuchen. (möchten)",
+          "answers": ["möchte"],
+          "tip": "So bestellt man höflich im Café.",
+          "explanation": "\"möchten\" (would like) is the polite way to order: Ich möchte einen Kaffee. It's actually the Konjunktiv II of \"mögen\" — much politer than \"ich will\" (I want), which sounds demanding."
+        },
+        {
+          "type": "choice",
+          "question": "Als Kind ___ ich keinen Kaffee trinken.",
+          "options": ["durfte", "darf", "dürfte"],
+          "answer": "durfte",
+          "tip": "\"Als Kind\" = Vergangenheit! Und die Form mit Umlaut ist Konjunktiv.",
+          "explanation": "\"Als Kind\" requires the past: durfte (wasn't allowed to). \"dürfte\" with umlaut is Konjunktiv II (\"would be allowed\") — in the Präteritum, modals always lose the umlaut: durfte, konnte, musste."
+        },
+        {
+          "type": "choice",
+          "question": "Man ___ in der Bibliothek leise sein.",
+          "options": ["muss", "kann", "will"],
+          "answer": "muss",
+          "tip": "Das ist eine Regel – keine Möglichkeit und kein Wunsch.",
+          "explanation": "Rules are expressed with \"müssen\": Man muss leise sein = one must be quiet. \"kann\" would say it's merely possible and \"will\" that someone wants to — neither expresses a rule."
+        },
+        {
+          "type": "order",
+          "question": "Bilde einen Satz:",
+          "words": ["Hier", "darf", "man", "nicht", "telefonieren"],
+          "answers": [
+            "Hier darf man nicht telefonieren",
+            "Man darf hier nicht telefonieren"
+          ],
+          "tip": "Modalverb auf Position 2, Infinitiv ans Ende – und \"nicht\" direkt vor den Infinitiv.",
+          "explanation": "The modal takes second position, the infinitive goes last, and \"nicht\" stands right before the infinitive: Hier darf man nicht telefonieren = You may not make phone calls here."
         }
       ]
     },
@@ -909,6 +1254,67 @@
           "answer": "alten",
           "tip": "Nach Possessivartikel (unsere) im Plural → wie nach \"die\".",
           "explanation": "After possessives in the plural, adjectives take -en just like after \"die\": unsere alten Großeltern, meine neuen Schuhe."
+        },
+        {
+          "type": "choice",
+          "question": "Ein ___ Mann hat mir den Weg gezeigt.",
+          "options": ["freundlicher", "freundliche", "freundlichen"],
+          "answer": "freundlicher",
+          "tip": "\"ein\" zeigt beim Maskulinum nicht den Nominativ – das Adjektiv muss es tun (wie \"der\").",
+          "explanation": "After \"ein\" in the masculine nominative, the adjective shows the gender with -er (borrowed from \"der\"): ein freundlicher Mann. Compare: der freundliche Mann — with \"der\" the adjective relaxes to -e."
+        },
+        {
+          "type": "blank",
+          "question": "Bei dem ___ Wetter bleiben wir lieber drinnen. (kalt)",
+          "answers": ["kalten"],
+          "tip": "Diesmal MIT Artikel: \"dem\" ist schon da → welche Endung?",
+          "explanation": "Here the article \"dem\" already shows the dative, so the adjective takes the weak ending -en: bei dem kalten Wetter. Without the article it would be strong: bei kaltem Wetter."
+        },
+        {
+          "type": "choice",
+          "question": "Ich trinke morgens immer eine Tasse ___ Kaffee.",
+          "options": ["schwarzen", "schwarzer", "schwarzes"],
+          "answer": "schwarzen",
+          "tip": "Kein Artikel vor dem Kaffee! \"trinken\" + Akkusativ maskulin → starke Endung.",
+          "explanation": "No article before \"Kaffee\", so the adjective takes the strong ending — masculine accusative -en (like \"den\"): Ich trinke eine Tasse schwarzen Kaffee. The measured noun agrees with the case of the phrase."
+        },
+        {
+          "type": "choice",
+          "question": "Wo ist mein ___ T-Shirt?",
+          "options": ["rotes", "rote", "roten"],
+          "answer": "rotes",
+          "tip": "\"mein\" funktioniert wie \"ein\": Es zeigt das Genus nicht → das Adjektiv muss es zeigen.",
+          "explanation": "Possessives behave like \"ein\": in the neuter nominative they don't show the gender, so the adjective does it with -es (like \"das\"): mein rotes T-Shirt."
+        },
+        {
+          "type": "blank",
+          "question": "Er wohnt in einem ___ Haus am Stadtrand. (groß)",
+          "answers": ["großen", "grossen"],
+          "tip": "\"in einem\" = Dativ → du kennst die Regel!",
+          "explanation": "Dative after an article → -en, always: in einem großen Haus. This single rule covers a huge share of everyday German — when in doubt after ein/dem/der (dative), pick -en."
+        },
+        {
+          "type": "choice",
+          "question": "___ Tee mit Honig hilft gegen Halsschmerzen.",
+          "options": ["Heißer", "Heiße", "Heißen"],
+          "answer": "Heißer",
+          "tip": "Kein Artikel! Der Tee ist maskulin und Subjekt des Satzes.",
+          "explanation": "No article + masculine nominative → the adjective takes the strong ending -er (like \"der\"): Heißer Tee hilft. The adjective always jumps in to show case and gender when the article is missing."
+        },
+        {
+          "type": "choice",
+          "question": "Die ___ Nachbarn sind sehr nett.",
+          "options": ["neuen", "neue", "neuer"],
+          "answer": "neuen",
+          "tip": "\"die\" + Plural → dieselbe Endung wie immer nach Artikel im Plural.",
+          "explanation": "Plural with an article → -en: die neuen Nachbarn. Compare without an article: Neue Nachbarn sind eingezogen (strong -e). The article decides which pattern applies."
+        },
+        {
+          "type": "blank",
+          "question": "Ich esse zum Frühstück am liebsten ___ Brot. (frisch)",
+          "answers": ["frisches"],
+          "tip": "Kein Artikel! Das Brot ist neutral → starke Endung wie \"das\".",
+          "explanation": "No article + neuter accusative → strong ending -es (like \"das\"): frisches Brot. Same pattern: kaltes Wasser, deutsches Bier, warmes Essen."
         }
       ]
     },
@@ -1010,6 +1416,66 @@
           "answers": ["Mein Bruder ist größer als ich"],
           "tip": "Subjekt – Verb – Komparativ – als – Vergleichsperson.",
           "explanation": "Comparison structure: Mein Bruder ist größer als ich. After \"als\" the person stays in the nominative, because a verb is implied: ... als ich (bin)."
+        },
+        {
+          "type": "blank",
+          "question": "Die alte Bahn war viel ___ als der ICE. (langsam)",
+          "answers": ["langsamer"],
+          "tip": "Einfach -er anhängen – dieses Adjektiv bekommt KEINEN Umlaut.",
+          "explanation": "Not every a/o/u adjective takes an umlaut: langsam → langsamer (no umlaut). Adjectives with more than one syllable usually don't: langsamer, dunkler, sauberer. The umlaut is mainly for short ones: älter, größer, kürzer."
+        },
+        {
+          "type": "choice",
+          "question": "Das ist das ___ Buch, das ich je gelesen habe.",
+          "options": ["beste", "bessere", "am besten"],
+          "answer": "beste",
+          "tip": "Superlativ VOR einem Nomen → mit Artikel und Adjektiv-Endung, ohne \"am\".",
+          "explanation": "Before a noun, the superlative works like a normal adjective: das beste Buch. \"am besten\" is only for the stand-alone form (Dieses Buch gefällt mir am besten), and \"bessere\" is just the comparative."
+        },
+        {
+          "type": "blank",
+          "question": "Berlin ist ___ als Hamburg. (groß)",
+          "answers": ["größer", "grösser"],
+          "tip": "Kurzes Adjektiv mit o → Umlaut!",
+          "explanation": "groß → größer (with umlaut): Berlin ist größer als Hamburg. And note it's \"als\", never \"wie\", after a comparative."
+        },
+        {
+          "type": "choice",
+          "question": "Welcher Berg ist ___: die Zugspitze oder der Mont Blanc?",
+          "options": ["höher", "am höchsten", "hoch"],
+          "answer": "höher",
+          "tip": "Es werden nur ZWEI Berge verglichen!",
+          "explanation": "Comparing exactly two things takes the comparative, not the superlative: Welcher ist höher? The superlative (am höchsten) only makes sense for three or more."
+        },
+        {
+          "type": "blank",
+          "question": "Fußball ist die ___ Sportart in Deutschland. (beliebt)",
+          "answers": ["beliebteste"],
+          "tip": "Superlativ vor dem Nomen: die + Adjektiv + -este.",
+          "explanation": "Superlative before a noun: die beliebteste Sportart. Adjectives ending in -t or -d insert an e: beliebt → beliebteste, breit → breiteste. Without it, it would be hard to pronounce."
+        },
+        {
+          "type": "choice",
+          "question": "Er isst jetzt ___ Gemüse als früher.",
+          "options": ["mehr", "mehrere", "viel"],
+          "answer": "mehr",
+          "tip": "Komparativ von \"viel\" – ganz unregelmäßig.",
+          "explanation": "viel → mehr → am meisten (irregular): Er isst mehr Gemüse als früher. \"mehrere\" is a different word meaning \"several\", and plain \"viel\" can't combine with \"als\"."
+        },
+        {
+          "type": "choice",
+          "question": "Je älter man wird, ___ schneller vergeht die Zeit.",
+          "options": ["desto", "so", "dann"],
+          "answer": "desto",
+          "tip": "\"je\" am Anfang hat einen festen Partner.",
+          "explanation": "\"je ... desto\" is a fixed pair: Je älter man wird, desto schneller vergeht die Zeit = The older you get, the faster time passes. \"umso\" also works instead of \"desto\"."
+        },
+        {
+          "type": "blank",
+          "question": "Der Rhein ist lang, aber die Donau ist noch ___. (lang)",
+          "answers": ["länger"],
+          "tip": "Kurzes Adjektiv mit a → Umlaut!",
+          "explanation": "lang → länger (with umlaut): Die Donau ist länger als der Rhein. Other one-syllable adjectives with umlaut: alt → älter, jung → jünger, kalt → kälter, warm → wärmer."
         }
       ]
     },
@@ -1106,6 +1572,78 @@
           "answer": "die",
           "tip": "Wer liest viel? Subjekt im Plural.",
           "explanation": "Plural subject → nominative plural \"die\": Kinder, die viel lesen. The plural relative pronoun \"die\" is the same for all genders."
+        },
+        {
+          "type": "choice",
+          "question": "Das ist die beste Pizza, ___ ich je gegessen habe.",
+          "options": ["die", "der", "das"],
+          "answer": "die",
+          "tip": "Wen oder was habe ich gegessen? Die Pizza ist feminin.",
+          "explanation": "Direct object of \"essen\" → accusative feminine: die. After superlatives you'll use this pattern a lot: der beste Film, den ich je gesehen habe; das schönste Lied, das ich kenne."
+        },
+        {
+          "type": "choice",
+          "question": "Die Leute, ___ hier wohnen, sind sehr freundlich.",
+          "options": ["die", "denen", "das"],
+          "answer": "die",
+          "tip": "Wer wohnt hier? Subjekt im Plural.",
+          "explanation": "The relative pronoun is the subject (they live here) → nominative plural: die Leute, die hier wohnen. \"denen\" would only be right for a dative, e.g. die Leute, denen ich helfe."
+        },
+        {
+          "type": "choice",
+          "question": "Der Freund, ___ ich am meisten vertraue, wohnt leider weit weg.",
+          "options": ["dem", "den", "der"],
+          "answer": "dem",
+          "tip": "\"vertrauen\" ist ein Dativ-Verb (wie helfen und danken)!",
+          "explanation": "\"vertrauen\" (to trust) takes the dative → masculine dative: der Freund, dem ich vertraue. The dative verbs (helfen, danken, vertrauen, gratulieren ...) keep their case inside relative clauses too."
+        },
+        {
+          "type": "choice",
+          "question": "Die Lehrerin, ___ ich das Buch gegeben habe, ist heute krank.",
+          "options": ["der", "die", "den"],
+          "answer": "der",
+          "tip": "Wem habe ich das Buch gegeben? → Dativ feminin.",
+          "explanation": "The teacher is the receiver (indirect object) → dative feminine: der. Die Lehrerin, der ich das Buch gegeben habe = the teacher I gave the book to."
+        },
+        {
+          "type": "choice",
+          "question": "Alles, ___ er sagt, ist wahr.",
+          "options": ["was", "das", "dass"],
+          "answer": "was",
+          "tip": "Nach \"alles\", \"nichts\", \"etwas\" kommt ein besonderes Relativpronomen.",
+          "explanation": "After alles, nichts, etwas, vieles and das (as a pronoun), the relative pronoun is \"was\": Alles, was er sagt ... Nichts, was ich tue ... — not \"das\"."
+        },
+        {
+          "type": "choice",
+          "question": "Die Stadt, aus ___ er kommt, liegt in Bayern.",
+          "options": ["der", "dem", "die"],
+          "answer": "der",
+          "tip": "\"aus\" + Dativ, und die Stadt ist feminin.",
+          "explanation": "\"aus\" always takes the dative → feminine dative: die Stadt, aus der er kommt = the city he comes from. The preposition moves in front of the relative pronoun in German."
+        },
+        {
+          "type": "choice",
+          "question": "Das Fahrrad, ___ ich mir letzte Woche gekauft habe, war ziemlich teuer.",
+          "options": ["das", "dass", "dem"],
+          "answer": "das",
+          "tip": "Was habe ich gekauft? → Akkusativ neutral. Und Vorsicht mit der Schreibweise!",
+          "explanation": "Direct object → accusative neuter: das Fahrrad, das ich gekauft habe. Never \"dass\" — after a noun with a comma, a relative pronoun follows, and it's always written with one s."
+        },
+        {
+          "type": "order",
+          "question": "Vervollständige: „Ist das der Mann, …“",
+          "words": ["den", "du", "gestern", "gesehen", "hast"],
+          "answers": ["den du gestern gesehen hast"],
+          "tip": "Relativpronomen (Akkusativ!) zuerst, konjugiertes Verb ganz ans Ende.",
+          "explanation": "The relative pronoun opens the clause and the conjugated verb closes it: Ist das der Mann, den du gestern gesehen hast? \"den\" is accusative because the man is the object of seeing."
+        },
+        {
+          "type": "choice",
+          "question": "Meine Oma, ___ schon 80 Jahre alt ist, fährt immer noch Auto.",
+          "options": ["die", "der", "das"],
+          "answer": "die",
+          "tip": "Wer ist 80 Jahre alt? Subjekt, feminin.",
+          "explanation": "The grandma is the subject of the relative clause → nominative feminine: die. Meine Oma, die 80 ist, fährt noch Auto = My grandma, who is 80, still drives."
         }
       ]
     },
@@ -1207,6 +1745,67 @@
           "answer": "mit",
           "tip": "zufrieden + ? + Dativ.",
           "explanation": "zufrieden mit + dative = satisfied with: zufrieden mit der Wohnung. Adjectives take fixed prepositions too: stolz auf, verliebt in, zufrieden mit."
+        },
+        {
+          "type": "choice",
+          "question": "Erinnerst du dich ___ unseren ersten Urlaub?",
+          "options": ["an", "auf", "über"],
+          "answer": "an",
+          "tip": "sich erinnern + ? – dieselbe Präposition wie bei \"denken\".",
+          "explanation": "sich erinnern an + accusative = to remember: Erinnerst du dich an unseren Urlaub? It pairs with \"an\" just like \"denken an\" — memory verbs like \"an\"."
+        },
+        {
+          "type": "blank",
+          "question": "Ob wir grillen können, hängt ___ Wetter ab.",
+          "answers": ["vom", "von dem"],
+          "tip": "abhängen + ? + Dativ – Präposition und Artikel verschmelzen hier.",
+          "explanation": "abhängen von + dative = to depend on: Das hängt vom Wetter ab (von dem → vom). You'll hear the phrase \"Das hängt davon ab\" (it depends) constantly in everyday German."
+        },
+        {
+          "type": "choice",
+          "question": "Ich muss mich noch ___ die Prüfung vorbereiten.",
+          "options": ["auf", "für", "an"],
+          "answer": "auf",
+          "tip": "sich vorbereiten + ? – nicht \"für\", auch wenn es logisch klingt!",
+          "explanation": "sich vorbereiten auf + accusative = to prepare for: sich auf die Prüfung vorbereiten. English \"for\" tempts you towards \"für\", but the fixed preposition is \"auf\"."
+        },
+        {
+          "type": "choice",
+          "question": "Sie hat sich ___ die Stelle beworben.",
+          "options": ["um", "über", "gegen"],
+          "answer": "um",
+          "tip": "sich bewerben + ? (wie \"bitten\" und \"sich kümmern\").",
+          "explanation": "sich bewerben um + accusative = to apply for: sich um eine Stelle bewerben. The \"um\" group: bitten um, sich bewerben um, sich kümmern um."
+        },
+        {
+          "type": "blank",
+          "question": "Er beschäftigt sich in seiner Freizeit viel ___ Geschichte.",
+          "answers": ["mit"],
+          "tip": "sich beschäftigen + ? + Dativ.",
+          "explanation": "sich beschäftigen mit + dative = to occupy oneself with: Er beschäftigt sich mit Geschichte = He spends a lot of time on history."
+        },
+        {
+          "type": "choice",
+          "question": "Ich nehme seit Januar ___ einem Deutschkurs teil.",
+          "options": ["an", "auf", "bei"],
+          "answer": "an",
+          "tip": "teilnehmen + ? + Dativ.",
+          "explanation": "teilnehmen an + dative = to participate in: an einem Kurs teilnehmen. Note that \"teilnehmen\" is separable: Ich nehme an einem Kurs teil."
+        },
+        {
+          "type": "choice",
+          "question": "Er hat mich ___ seiner Geburtstagsparty eingeladen.",
+          "options": ["zu", "mit", "bei"],
+          "answer": "zu",
+          "tip": "einladen + ? + Dativ.",
+          "explanation": "einladen zu + dative = to invite to: Er hat mich zu seiner Party eingeladen. The same \"zu\" appears in the noun phrase: eine Einladung zur Party."
+        },
+        {
+          "type": "blank",
+          "question": "Wir gratulieren dir ___ Geburtstag!",
+          "answers": ["zum", "zu dem"],
+          "tip": "gratulieren + Person (Dativ) + ? + Anlass. Präposition + Artikel verschmelzen.",
+          "explanation": "gratulieren zu + dative = to congratulate on: Wir gratulieren dir zum Geburtstag (zu dem → zum). You know it from the phrase \"Herzlichen Glückwunsch zum Geburtstag!\""
         }
       ]
     }

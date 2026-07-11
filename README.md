@@ -8,6 +8,7 @@ Live: https://goktoprak.github.io/deutsche-quiz/
 **Features**
 
 - Topics are generated automatically from the questions file
+- Topics are served in batches of 10 (Teil 1, Teil 2, …), in file order
 - Three question types: multiple choice, fill-in-the-blank, word order
 - A hint (Tipp) for every question, unlockable 5 seconds after the question appears
 - A brief English explanation after every answer
@@ -40,6 +41,11 @@ Edit `data/questions.json` only. Add a new object to the `categories` array:
 ```
 
 The new topic card appears automatically on the start screen.
+
+Each topic is split into batches of 10 questions (Teil 1 = questions 1–10,
+Teil 2 = 11–20, …) in the order they appear in the file. New questions
+appended to the end of a topic therefore become a new Teil — keep each
+topic's question count a multiple of 10 so no Teil is left short.
 
 ### Question types
 
