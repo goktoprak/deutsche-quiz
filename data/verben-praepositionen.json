@@ -1,0 +1,232 @@
+{
+  "id": "verben-praepositionen",
+  "name": "Verben mit Präpositionen",
+  "icon": "🧲",
+  "description": "warten auf, sich freuen über, denken an …",
+  "questions": [
+    {
+      "type": "choice",
+      "question": "Ich warte schon eine halbe Stunde ___ den Bus.",
+      "options": [
+        "auf",
+        "für",
+        "an"
+      ],
+      "answer": "auf",
+      "tip": "warten + ? – Lerne Verb und Präposition immer zusammen!",
+      "explanation": "warten auf + accusative = to wait for: Ich warte auf den Bus. The preposition can't be guessed from English — learn verb + preposition as one unit."
+    },
+    {
+      "type": "choice",
+      "question": "Meine Schwester interessiert sich sehr ___ Musik.",
+      "options": [
+        "für",
+        "auf",
+        "an"
+      ],
+      "answer": "für",
+      "tip": "sich interessieren + ?",
+      "explanation": "sich interessieren für + accusative = to be interested in: Sie interessiert sich für Musik. (Confusingly, the noun takes a different preposition: Interesse an + dative.)"
+    },
+    {
+      "type": "blank",
+      "question": "Wir freuen uns schon ___ deinen Besuch nächste Woche.",
+      "answers": [
+        "auf"
+      ],
+      "tip": "Der Besuch ist in der Zukunft! freuen auf oder freuen über?",
+      "explanation": "sich freuen AUF = to look forward to (future); sich freuen ÜBER = to be happy about (present/past). The visit is next week → auf: Wir freuen uns auf deinen Besuch."
+    },
+    {
+      "type": "choice",
+      "question": "Er ärgert sich ___ das schlechte Wetter.",
+      "options": [
+        "über",
+        "auf",
+        "von"
+      ],
+      "answer": "über",
+      "tip": "sich ärgern + ?",
+      "explanation": "sich ärgern über + accusative = to be annoyed about: Er ärgert sich über das Wetter. Many emotion verbs take über: sich freuen über, lachen über, sich ärgern über."
+    },
+    {
+      "type": "choice",
+      "question": "Ich denke oft ___ meine Kindheit.",
+      "options": [
+        "an",
+        "über",
+        "von"
+      ],
+      "answer": "an",
+      "tip": "denken + ? (nicht \"über\"!)",
+      "explanation": "denken an + accusative = to think of/about: Ich denke an dich. \"nachdenken über\" (to ponder) exists too, but plain \"denken\" pairs with \"an\"."
+    },
+    {
+      "type": "blank",
+      "question": "Mein kleiner Bruder hat Angst ___ Hunden.",
+      "answers": [
+        "vor"
+      ],
+      "tip": "Angst haben + ? + Dativ.",
+      "explanation": "Angst haben vor + dative = to be afraid of: Angst vor Hunden. Also: sich fürchten vor. You can see the dative in \"Hunden\" (dative plural adds -n)."
+    },
+    {
+      "type": "choice",
+      "question": "Wir sprechen gerade ___ den neuen Kollegen.",
+      "options": [
+        "über",
+        "von",
+        "an"
+      ],
+      "answer": "über",
+      "tip": "sprechen + ? + Akkusativ – schau auf \"den\"!",
+      "explanation": "sprechen über + accusative = to talk about: über den neuen Kollegen. \"sprechen von\" exists too but takes the dative (von dem Kollegen) — the \"den\" in the sentence tells you it must be über."
+    },
+    {
+      "type": "choice",
+      "question": "Sie träumt ___ einem eigenen Haus am Meer.",
+      "options": [
+        "von",
+        "über",
+        "an"
+      ],
+      "answer": "von",
+      "tip": "träumen + ? + Dativ.",
+      "explanation": "träumen von + dative = to dream of/about: Sie träumt von einem Haus am Meer. Not \"über\" — English \"dream about\" leads many learners astray here."
+    },
+    {
+      "type": "blank",
+      "question": "Ich danke dir ___ deine Hilfe!",
+      "answers": [
+        "für"
+      ],
+      "tip": "danken + Person (Dativ) + ? + Sache.",
+      "explanation": "danken + dative (the person) + für + accusative (the thing): Ich danke dir für deine Hilfe. Same pattern with sich bedanken: Ich bedanke mich für das Geschenk."
+    },
+    {
+      "type": "choice",
+      "question": "Entschuldigung, ich möchte ___ dem Weg zum Bahnhof fragen.",
+      "options": [
+        "nach",
+        "für",
+        "um"
+      ],
+      "answer": "nach",
+      "tip": "fragen + ? + Dativ (Informationen erfragen).",
+      "explanation": "fragen nach + dative = to ask about/for information: nach dem Weg fragen. Compare \"bitten um\" = to ask for a favor or thing: um Hilfe bitten."
+    },
+    {
+      "type": "choice",
+      "question": "Sie kümmert sich liebevoll ___ ihre kranke Mutter.",
+      "options": [
+        "um",
+        "für",
+        "auf"
+      ],
+      "answer": "um",
+      "tip": "sich kümmern + ?",
+      "explanation": "sich kümmern um + accusative = to take care of: sich um die Mutter kümmern. Also with um: bitten um, sich bewerben um."
+    },
+    {
+      "type": "choice",
+      "question": "Ich bin ___ meiner neuen Wohnung sehr zufrieden.",
+      "options": [
+        "mit",
+        "von",
+        "über"
+      ],
+      "answer": "mit",
+      "tip": "zufrieden + ? + Dativ.",
+      "explanation": "zufrieden mit + dative = satisfied with: zufrieden mit der Wohnung. Adjectives take fixed prepositions too: stolz auf, verliebt in, zufrieden mit."
+    },
+    {
+      "type": "choice",
+      "question": "Erinnerst du dich ___ unseren ersten Urlaub?",
+      "options": [
+        "an",
+        "auf",
+        "über"
+      ],
+      "answer": "an",
+      "tip": "sich erinnern + ? – dieselbe Präposition wie bei \"denken\".",
+      "explanation": "sich erinnern an + accusative = to remember: Erinnerst du dich an unseren Urlaub? It pairs with \"an\" just like \"denken an\" — memory verbs like \"an\"."
+    },
+    {
+      "type": "blank",
+      "question": "Ob wir grillen können, hängt ___ Wetter ab.",
+      "answers": [
+        "vom",
+        "von dem"
+      ],
+      "tip": "abhängen + ? + Dativ – Präposition und Artikel verschmelzen hier.",
+      "explanation": "abhängen von + dative = to depend on: Das hängt vom Wetter ab (von dem → vom). You'll hear the phrase \"Das hängt davon ab\" (it depends) constantly in everyday German."
+    },
+    {
+      "type": "choice",
+      "question": "Ich muss mich noch ___ die Prüfung vorbereiten.",
+      "options": [
+        "auf",
+        "für",
+        "an"
+      ],
+      "answer": "auf",
+      "tip": "sich vorbereiten + ? – nicht \"für\", auch wenn es logisch klingt!",
+      "explanation": "sich vorbereiten auf + accusative = to prepare for: sich auf die Prüfung vorbereiten. English \"for\" tempts you towards \"für\", but the fixed preposition is \"auf\"."
+    },
+    {
+      "type": "choice",
+      "question": "Sie hat sich ___ die Stelle beworben.",
+      "options": [
+        "um",
+        "über",
+        "gegen"
+      ],
+      "answer": "um",
+      "tip": "sich bewerben + ? (wie \"bitten\" und \"sich kümmern\").",
+      "explanation": "sich bewerben um + accusative = to apply for: sich um eine Stelle bewerben. The \"um\" group: bitten um, sich bewerben um, sich kümmern um."
+    },
+    {
+      "type": "blank",
+      "question": "Er beschäftigt sich in seiner Freizeit viel ___ Geschichte.",
+      "answers": [
+        "mit"
+      ],
+      "tip": "sich beschäftigen + ? + Dativ.",
+      "explanation": "sich beschäftigen mit + dative = to occupy oneself with: Er beschäftigt sich mit Geschichte = He spends a lot of time on history."
+    },
+    {
+      "type": "choice",
+      "question": "Ich nehme seit Januar ___ einem Deutschkurs teil.",
+      "options": [
+        "an",
+        "auf",
+        "bei"
+      ],
+      "answer": "an",
+      "tip": "teilnehmen + ? + Dativ.",
+      "explanation": "teilnehmen an + dative = to participate in: an einem Kurs teilnehmen. Note that \"teilnehmen\" is separable: Ich nehme an einem Kurs teil."
+    },
+    {
+      "type": "choice",
+      "question": "Er hat mich ___ seiner Geburtstagsparty eingeladen.",
+      "options": [
+        "zu",
+        "mit",
+        "bei"
+      ],
+      "answer": "zu",
+      "tip": "einladen + ? + Dativ.",
+      "explanation": "einladen zu + dative = to invite to: Er hat mich zu seiner Party eingeladen. The same \"zu\" appears in the noun phrase: eine Einladung zur Party."
+    },
+    {
+      "type": "blank",
+      "question": "Wir gratulieren dir ___ Geburtstag!",
+      "answers": [
+        "zum",
+        "zu dem"
+      ],
+      "tip": "gratulieren + Person (Dativ) + ? + Anlass. Präposition + Artikel verschmelzen.",
+      "explanation": "gratulieren zu + dative = to congratulate on: Wir gratulieren dir zum Geburtstag (zu dem → zum). You know it from the phrase \"Herzlichen Glückwunsch zum Geburtstag!\""
+    }
+  ]
+}

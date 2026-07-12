@@ -1,0 +1,238 @@
+{
+  "id": "artikel-kasus",
+  "name": "Artikel & Kasus",
+  "icon": "🎯",
+  "description": "Nominativ, Akkusativ, Dativ und Genitiv",
+  "questions": [
+    {
+      "type": "choice",
+      "question": "Ich sehe ___ Mann dort drüben.",
+      "options": [
+        "den",
+        "der",
+        "dem"
+      ],
+      "answer": "den",
+      "tip": "\"sehen\" braucht ein direktes Objekt. Wen siehst du?",
+      "explanation": "\"sehen\" takes a direct object in the accusative. Masculine \"der\" changes to \"den\": Ich sehe den Mann. The question word is \"Wen?\" (whom?)."
+    },
+    {
+      "type": "choice",
+      "question": "Der Lehrer gibt ___ Schülerin ein Buch.",
+      "options": [
+        "der",
+        "die",
+        "dem"
+      ],
+      "answer": "der",
+      "tip": "Wem gibt der Lehrer das Buch? Die Person, die etwas bekommt, steht im Dativ.",
+      "explanation": "The receiver of something is the indirect object → dative. Feminine \"die\" becomes \"der\" in the dative: Er gibt der Schülerin ein Buch. \"ein Buch\" is the accusative object."
+    },
+    {
+      "type": "blank",
+      "question": "Ich helfe ___ Kind bei den Hausaufgaben. (das Kind)",
+      "answers": [
+        "dem"
+      ],
+      "tip": "\"helfen\" gehört zu den besonderen Verben, die immer denselben Kasus verlangen.",
+      "explanation": "\"helfen\" is a dative verb — its object is always dative: Ich helfe dem Kind. Other common dative verbs: danken, gehören, gefallen, antworten, gratulieren."
+    },
+    {
+      "type": "choice",
+      "question": "Wem gehört ___ Tasche hier?",
+      "options": [
+        "die",
+        "der",
+        "den"
+      ],
+      "answer": "die",
+      "tip": "Bei \"gehören\" steht die Person im Dativ – aber die Sache ist das Subjekt!",
+      "explanation": "With \"gehören\", the owner is dative (wem?) but the thing owned is the subject → nominative: die Tasche. Don't let the dative question word trick you into changing the article."
+    },
+    {
+      "type": "choice",
+      "question": "Er dankt ___ Frau für die Hilfe.",
+      "options": [
+        "der",
+        "die",
+        "den"
+      ],
+      "answer": "der",
+      "tip": "\"danken\" funktioniert wie \"helfen\".",
+      "explanation": "\"danken\" is a dative verb: Er dankt der Frau. Feminine \"die\" → dative \"der\". English \"to thank someone\" takes a direct object, so this often feels wrong to English speakers — memorize the dative verbs!"
+    },
+    {
+      "type": "blank",
+      "question": "Ich kaufe ___ Bruder ein Geschenk. (mein Bruder)",
+      "answers": [
+        "meinem"
+      ],
+      "tip": "Wem kaufst du das Geschenk? Possessivartikel + Dativ maskulin.",
+      "explanation": "The person you buy something for is the indirect object → dative. Masculine dative of \"mein\" is \"meinem\": Ich kaufe meinem Bruder ein Geschenk."
+    },
+    {
+      "type": "choice",
+      "question": "Siehst du ___ kleinen Jungen da?",
+      "options": [
+        "den",
+        "dem",
+        "der"
+      ],
+      "answer": "den",
+      "tip": "\"sehen\" + Akkusativ. Der Junge ist maskulin.",
+      "explanation": "Direct object of \"sehen\" → accusative masculine: den kleinen Jungen. Note the adjective takes -en too, and \"Junge\" is an n-noun, so it also adds -n: der Junge → den Jungen."
+    },
+    {
+      "type": "blank",
+      "question": "___ Mädchen spielt im Garten.",
+      "answers": [
+        "das"
+      ],
+      "tip": "Vorsicht, Falle! Wörter mit -chen haben immer denselben Artikel.",
+      "explanation": "All diminutives ending in -chen or -lein are neuter, regardless of natural gender: das Mädchen, das Brötchen, das Häuschen. Here it's the subject, so nominative: Das Mädchen spielt."
+    },
+    {
+      "type": "choice",
+      "question": "Trotz ___ Regens gehen wir spazieren.",
+      "options": [
+        "des",
+        "dem",
+        "den"
+      ],
+      "answer": "des",
+      "tip": "\"trotz\" gehört zu den Genitiv-Präpositionen (wie \"wegen\" und \"während\").",
+      "explanation": "\"trotz\" (despite) takes the genitive: trotz des Regens — note the -s ending on the noun too. Other genitive prepositions: wegen, während, statt. In spoken German you'll often hear dative, but genitive is the standard."
+    },
+    {
+      "type": "choice",
+      "question": "Das ist das Fahrrad ___ Kindes.",
+      "options": [
+        "des",
+        "dem",
+        "das"
+      ],
+      "answer": "des",
+      "tip": "Wessen Fahrrad ist das? Besitz → Genitiv.",
+      "explanation": "Possession is expressed with the genitive: das Fahrrad des Kindes (the child's bicycle). Neuter and masculine take \"des\" + -s/-es on the noun. Question word: \"Wessen?\" (whose?)."
+    },
+    {
+      "type": "choice",
+      "question": "Ich frage ___ Lehrer, ob wir Hausaufgaben haben.",
+      "options": [
+        "den",
+        "dem",
+        "der"
+      ],
+      "answer": "den",
+      "tip": "Vorsicht: \"fragen\" ist KEIN Dativ-Verb, auch wenn es sich so anfühlt!",
+      "explanation": "\"fragen\" takes the accusative, unlike \"antworten\" (dative): Ich frage den Lehrer, but Ich antworte dem Lehrer. A classic trap even for advanced learners."
+    },
+    {
+      "type": "order",
+      "question": "Bilde einen Satz:",
+      "words": [
+        "Der",
+        "Lehrer",
+        "erklärt",
+        "den",
+        "Schülern",
+        "die",
+        "Grammatik"
+      ],
+      "answers": [
+        "Der Lehrer erklärt den Schülern die Grammatik",
+        "Den Schülern erklärt der Lehrer die Grammatik",
+        "Die Grammatik erklärt der Lehrer den Schülern"
+      ],
+      "tip": "Normale Reihenfolge: Subjekt – Verb – Dativobjekt – Akkusativobjekt.",
+      "explanation": "The neutral word order is subject – verb – dative object – accusative object: \"Der Lehrer erklärt den Schülern die Grammatik.\" The dative (to whom?) usually comes before the accusative (what?)."
+    },
+    {
+      "type": "choice",
+      "question": "Er schenkt ___ Eltern eine Reise nach Rom.",
+      "options": [
+        "seinen",
+        "seine",
+        "seinem"
+      ],
+      "answer": "seinen",
+      "tip": "Wem schenkt er die Reise? Dativ Plural!",
+      "explanation": "The receivers are the indirect object → dative, and \"Eltern\" is plural. The dative plural ending is -en: seinen Eltern. (Nouns also add -n in the dative plural where possible.)"
+    },
+    {
+      "type": "blank",
+      "question": "Schau mal, ich sehe ___ Hund vor dem Haus! (ein)",
+      "answers": [
+        "einen"
+      ],
+      "tip": "\"sehen\" + Akkusativ, und der Hund ist maskulin.",
+      "explanation": "Direct object of \"sehen\" → accusative. Masculine \"ein\" becomes \"einen\": Ich sehe einen Hund. Only the masculine changes in the accusative — feminine and neuter articles stay the same."
+    },
+    {
+      "type": "blank",
+      "question": "Der Pullover gefällt ___ nicht. (ich)",
+      "answers": [
+        "mir"
+      ],
+      "tip": "\"gefallen\" funktioniert wie \"gehören\": Die Person steht im Dativ.",
+      "explanation": "With \"gefallen\", the person is in the dative: Der Pullover gefällt mir nicht = I don't like the sweater (literally: it doesn't please me). Dative pronouns: mir, dir, ihm, ihr, uns, euch, ihnen."
+    },
+    {
+      "type": "choice",
+      "question": "Kannst du ___ bitte das Salz geben?",
+      "options": [
+        "mir",
+        "mich",
+        "ich"
+      ],
+      "answer": "mir",
+      "tip": "Wem gibst du das Salz? Person = Dativ, Sache = Akkusativ.",
+      "explanation": "The receiver is the indirect object → dative: Gib mir das Salz. \"mich\" is accusative and would be the thing being given — which would make for a strange sentence!"
+    },
+    {
+      "type": "choice",
+      "question": "Ich liebe ___!",
+      "options": [
+        "dich",
+        "dir",
+        "du"
+      ],
+      "answer": "dich",
+      "tip": "\"lieben\" braucht ein direktes Objekt. Wen liebe ich?",
+      "explanation": "\"lieben\" takes the accusative: Ich liebe dich. Accusative pronouns: mich, dich, ihn, sie, es, uns, euch, sie. Probably the most famous accusative in the German language!"
+    },
+    {
+      "type": "blank",
+      "question": "Wir besuchen ___ Großmutter am Sonntag. (unser)",
+      "answers": [
+        "unsere"
+      ],
+      "tip": "\"besuchen\" + Akkusativ. Die Großmutter ist feminin.",
+      "explanation": "\"besuchen\" takes the accusative. Feminine accusative of \"unser\" is \"unsere\": Wir besuchen unsere Großmutter. Feminine looks the same in nominative and accusative."
+    },
+    {
+      "type": "choice",
+      "question": "Das Handy gehört ___ Schwester.",
+      "options": [
+        "meiner",
+        "meine",
+        "meinem"
+      ],
+      "answer": "meiner",
+      "tip": "\"gehören\" + Dativ. Die Schwester ist feminin.",
+      "explanation": "\"gehören\" is a dative verb, and the feminine dative of \"meine\" is \"meiner\": Das Handy gehört meiner Schwester. Compare: meinem Bruder (masculine), meinen Eltern (plural)."
+    },
+    {
+      "type": "choice",
+      "question": "Der Chef dankt ___ Mitarbeitern für die gute Arbeit.",
+      "options": [
+        "den",
+        "die",
+        "der"
+      ],
+      "answer": "den",
+      "tip": "\"danken\" + Dativ, und \"Mitarbeitern\" ist Plural.",
+      "explanation": "\"danken\" takes the dative, and the dative plural article is \"den\": Er dankt den Mitarbeitern. The -n on \"Mitarbeitern\" is the dative plural marker on the noun."
+    }
+  ]
+}

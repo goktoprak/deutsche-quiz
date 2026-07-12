@@ -1,7 +1,7 @@
 # Deutsch-Quiz (A2 – B1)
 
-A static German grammar quiz site. All content lives in `data/questions.json` —
-you never have to touch the HTML/JS to add new topics or questions.
+A static German grammar quiz site. All content lives in per-topic JSON files
+in `data/` — you never have to touch the HTML/JS to add new topics or questions.
 
 Live: https://goktoprak.github.io/deutsche-quiz/
 
@@ -17,8 +17,8 @@ Live: https://goktoprak.github.io/deutsche-quiz/
 
 ## Run locally
 
-The site loads `data/questions.json` via `fetch`, so it needs to be served over
-HTTP (opening `index.html` directly as a file won't work):
+The site loads the JSON files in `data/` via `fetch`, so it needs to be served
+over HTTP (opening `index.html` directly as a file won't work):
 
 ```bash
 cd deutsche-quiz
@@ -28,7 +28,24 @@ python3 -m http.server 8000
 
 ## Adding topics and questions
 
-Edit `data/questions.json` only. Add a new object to the `categories` array:
+Each topic is one file in `data/` (e.g. `data/praepositionen.json`), and
+`data/index.json` lists which files to load:
+
+```json
+{
+  "categories": [
+    "praepositionen.json",
+    "wechselpraepositionen.json",
+    "..."
+  ]
+}
+```
+
+**To add questions to an existing topic**, append them to the `questions`
+array of that topic's file.
+
+**To add a new topic**, create `data/<id>.json` with this structure and add
+the filename to `data/index.json`:
 
 ```json
 {
@@ -40,7 +57,7 @@ Edit `data/questions.json` only. Add a new object to the `categories` array:
 }
 ```
 
-The new topic card appears automatically on the start screen.
+The topic card then appears automatically on the start screen.
 
 Each topic is split into batches of 10 questions (Teil 1 = questions 1–10,
 Teil 2 = 11–20, …) in the order they appear in the file. New questions
@@ -99,8 +116,8 @@ than one valid order):
   in **English**.
 - For `blank` questions, make sure only one word fits — add context to the
   sentence if needed, or list all valid answers in `answers`.
-- Validate the file after editing:
+- Validate the files after editing:
 
   ```bash
-  python3 -m json.tool data/questions.json > /dev/null && echo OK
+  for f in data/*.json; do python3 -m json.tool "$f" > /dev/null || echo "FEHLER: $f"; done && echo OK
   ```

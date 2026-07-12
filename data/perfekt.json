@@ -1,0 +1,221 @@
+{
+  "id": "perfekt",
+  "name": "Perfekt",
+  "icon": "✅",
+  "description": "haben oder sein + Partizip II",
+  "questions": [
+    {
+      "type": "choice",
+      "question": "Ich ___ gestern ins Kino gegangen.",
+      "options": [
+        "bin",
+        "habe",
+        "ist"
+      ],
+      "answer": "bin",
+      "tip": "\"gehen\" ist ein Bewegungsverb von A nach B. haben oder sein?",
+      "explanation": "Verbs of movement from A to B (gehen, fahren, fliegen, kommen ...) form the Perfekt with \"sein\": Ich bin gegangen. Also \"sein\", \"bleiben\", \"werden\" and change-of-state verbs (aufwachen, einschlafen) take \"sein\"."
+    },
+    {
+      "type": "blank",
+      "question": "Wir haben gestern Abend Pizza ___. (essen)",
+      "answers": [
+        "gegessen"
+      ],
+      "tip": "Starkes Verb: ge- + Vokalwechsel + -en. Achtung, es gibt ein doppeltes \"ge\"!",
+      "explanation": "\"essen\" has an irregular Partizip II: gegessen (with a double \"ge\"-sound: ge-gessen). Strong verbs end in -en: essen → gegessen, trinken → getrunken, lesen → gelesen."
+    },
+    {
+      "type": "choice",
+      "question": "Sie ___ den ganzen Tag im Büro gearbeitet.",
+      "options": [
+        "hat",
+        "ist",
+        "habt"
+      ],
+      "answer": "hat",
+      "tip": "Keine Bewegung, keine Zustandsänderung → welches Hilfsverb?",
+      "explanation": "Most verbs — everything that isn't movement or a change of state — take \"haben\": Sie hat gearbeitet. \"sie\" (she) is third person singular → hat, not habt (that's the ihr-form)."
+    },
+    {
+      "type": "blank",
+      "question": "Er ist heute sehr spät ___. (aufstehen)",
+      "answers": [
+        "aufgestanden"
+      ],
+      "tip": "Trennbares Verb: auf + ge + stand + en.",
+      "explanation": "Separable verbs put \"ge\" between the prefix and the stem: auf-ge-standen. \"aufstehen\" describes a change of state, so it takes \"sein\": Er ist aufgestanden."
+    },
+    {
+      "type": "choice",
+      "question": "Hast du das Buch schon ___?",
+      "options": [
+        "gelesen",
+        "geliest",
+        "lest"
+      ],
+      "answer": "gelesen",
+      "tip": "\"lesen\" ist ein starkes Verb – die Endung ist nicht -t!",
+      "explanation": "\"lesen\" is strong, so its participle ends in -en: gelesen. \"geliest\" mixes the weak -t ending with a strong verb — a very common learner mistake."
+    },
+    {
+      "type": "blank",
+      "question": "Ich habe meine Hausaufgaben schon ___. (machen)",
+      "answers": [
+        "gemacht"
+      ],
+      "tip": "Schwaches Verb: ge- + Stamm + -t.",
+      "explanation": "\"machen\" is a weak (regular) verb: ge + mach + t = gemacht. The weak pattern ge-...-t covers most German verbs: machen → gemacht, kaufen → gekauft, spielen → gespielt."
+    },
+    {
+      "type": "choice",
+      "question": "Wir ___ mit dem Zug nach München gefahren.",
+      "options": [
+        "sind",
+        "haben",
+        "ist"
+      ],
+      "answer": "sind",
+      "tip": "\"fahren\" = Bewegung von A nach B. Und \"wir\" braucht die richtige Form!",
+      "explanation": "\"fahren\" is a movement verb → \"sein\": wir sind gefahren. (Exception: with a direct object it takes haben — \"Ich habe das Auto in die Garage gefahren\" — but that's rare at this level.)"
+    },
+    {
+      "type": "choice",
+      "question": "Das Konzert hat um 20 Uhr ___.",
+      "options": [
+        "begonnen",
+        "beginnt",
+        "begann"
+      ],
+      "answer": "begonnen",
+      "tip": "Nach \"hat\" brauchst du ein Partizip II. Verben mit be- bekommen kein \"ge\"!",
+      "explanation": "After \"hat\" you need the Partizip II: begonnen. Verbs with inseparable prefixes (be-, ver-, er-, ent-) never add \"ge\": beginnen → begonnen, verstehen → verstanden. \"begann\" is Präteritum, not a participle."
+    },
+    {
+      "type": "blank",
+      "question": "Sie hat mir ein Foto ___. (schicken)",
+      "answers": [
+        "geschickt"
+      ],
+      "tip": "Schwaches Verb: ge- + Stamm + -t.",
+      "explanation": "\"schicken\" is weak: ge + schick + t = geschickt. \"Sie hat mir ein Foto geschickt\" = She sent me a photo. Note \"mir\" — the receiver is in the dative."
+    },
+    {
+      "type": "choice",
+      "question": "Er ist am Wochenende einfach zu Hause ___.",
+      "options": [
+        "geblieben",
+        "gebleibt",
+        "bleiben"
+      ],
+      "answer": "geblieben",
+      "tip": "\"bleiben\" ist stark – und eines der wenigen Verben ohne Bewegung, das trotzdem \"sein\" nimmt.",
+      "explanation": "\"bleiben\" is strong: geblieben (not \"gebleibt\"). It's one of the special verbs that take \"sein\" even though there's no movement: Er ist geblieben. The same goes for \"sein\" itself: Ich bin gewesen."
+    },
+    {
+      "type": "choice",
+      "question": "Was ist passiert? – Ich ___ mein Handy verloren!",
+      "options": [
+        "habe",
+        "bin",
+        "ist"
+      ],
+      "answer": "habe",
+      "tip": "\"verlieren\" hat ein Akkusativobjekt (mein Handy) → welches Hilfsverb?",
+      "explanation": "Verbs with a direct object always form the Perfekt with \"haben\": Ich habe mein Handy verloren. Note also: verlieren has the inseparable prefix ver-, so no \"ge\": verloren."
+    },
+    {
+      "type": "blank",
+      "question": "Wann bist du gestern Abend ___? (einschlafen)",
+      "answers": [
+        "eingeschlafen"
+      ],
+      "tip": "Trennbares Verb: ein + ge + schlafen. Und warum \"bist\"?",
+      "explanation": "Separable verb: ein-ge-schlafen. \"einschlafen\" (to fall asleep) is a change of state, which is why it takes \"sein\" — but plain \"schlafen\" takes haben: Ich habe gut geschlafen."
+    },
+    {
+      "type": "choice",
+      "question": "Ich habe den Schlüssel überall ___, aber ich finde ihn nicht.",
+      "options": [
+        "gesucht",
+        "gesuchen",
+        "suchte"
+      ],
+      "answer": "gesucht",
+      "tip": "\"suchen\" ist ein schwaches Verb: ge- + Stamm + ?",
+      "explanation": "\"suchen\" is weak: ge + such + t = gesucht. \"gesuchen\" wrongly borrows the strong -en ending, and \"suchte\" is Präteritum — after \"habe\" you need the Partizip II."
+    },
+    {
+      "type": "choice",
+      "question": "Gestern ___ es den ganzen Tag geregnet.",
+      "options": [
+        "hat",
+        "ist",
+        "habt"
+      ],
+      "answer": "hat",
+      "tip": "Wetter-Verben (regnen, schneien) – haben oder sein?",
+      "explanation": "Weather verbs take \"haben\": Es hat geregnet, es hat geschneit. No movement from A to B, no change of state → haben. And \"es\" is third person singular → hat."
+    },
+    {
+      "type": "blank",
+      "question": "Ich habe zwei Stunden auf dich ___! (warten)",
+      "answers": [
+        "gewartet"
+      ],
+      "tip": "Schwaches Verb. Der Stamm endet auf -t, deshalb kommt ein extra \"e\": ge- + Stamm + -et.",
+      "explanation": "Verbs whose stem ends in -t or -d insert an e before the final -t: warten → gewartet, arbeiten → gearbeitet, reden → geredet. Otherwise it would be unpronounceable."
+    },
+    {
+      "type": "blank",
+      "question": "Er hat mir die ganze Geschichte ___. (erzählen)",
+      "answers": [
+        "erzählt"
+      ],
+      "tip": "Vorsicht: Verben mit er- bekommen KEIN \"ge\"!",
+      "explanation": "Inseparable prefixes (er-, be-, ver-, ent-, zer-) block the \"ge\": erzählen → erzählt (not \"geerzählt\"). Same pattern: bezahlen → bezahlt, verkaufen → verkauft."
+    },
+    {
+      "type": "choice",
+      "question": "Sie ist letztes Jahr nach Kanada ___.",
+      "options": [
+        "ausgewandert",
+        "ausgewandern",
+        "auswandert"
+      ],
+      "answer": "ausgewandert",
+      "tip": "Trennbares, schwaches Verb: aus + ge + wandert.",
+      "explanation": "Separable verbs put \"ge\" after the prefix: aus-ge-wandert. \"auswandern\" (to emigrate) is movement to a new place, so it takes \"sein\": Sie ist ausgewandert."
+    },
+    {
+      "type": "blank",
+      "question": "Hast du gut ___? (schlafen)",
+      "answers": [
+        "geschlafen"
+      ],
+      "tip": "Starkes Verb: ge- + Stamm + -en. (Und hier ohne \"ein-\"!)",
+      "explanation": "\"schlafen\" is strong: geschlafen. Note the contrast with \"einschlafen\": Ich habe gut geschlafen (haben — a state), but Ich bin schnell eingeschlafen (sein — a change of state)."
+    },
+    {
+      "type": "choice",
+      "question": "Beeil dich, der Film ___ schon angefangen!",
+      "options": [
+        "hat",
+        "ist",
+        "habt"
+      ],
+      "answer": "hat",
+      "tip": "Überraschung: \"anfangen\" nimmt NICHT \"sein\", obwohl es wie eine Veränderung klingt!",
+      "explanation": "\"anfangen\" and \"beginnen\" take \"haben\", even though they feel like a change of state: Der Film hat angefangen. Das Konzert hat begonnen. A common trap — memorize these two."
+    },
+    {
+      "type": "blank",
+      "question": "Ich habe mein Portemonnaie zu Hause ___. (vergessen)",
+      "answers": [
+        "vergessen"
+      ],
+      "tip": "Verb mit ver- → kein \"ge\". Wie sieht das Partizip aus?",
+      "explanation": "\"vergessen\" has the inseparable prefix ver-, so no \"ge\" — and its Partizip II happens to look exactly like the infinitive: vergessen → vergessen. Ich habe es vergessen = I forgot it."
+    }
+  ]
+}

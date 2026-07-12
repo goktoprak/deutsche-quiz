@@ -1,0 +1,233 @@
+{
+  "id": "komparativ",
+  "name": "Komparativ & Superlativ",
+  "icon": "📈",
+  "description": "größer, am größten, besser, am liebsten",
+  "questions": [
+    {
+      "type": "choice",
+      "question": "Mein Bruder ist zwei Jahre ___ als ich.",
+      "options": [
+        "älter",
+        "alter",
+        "mehr alt"
+      ],
+      "answer": "älter",
+      "tip": "Kurze Adjektive mit a, o, u bekommen im Komparativ oft einen Umlaut.",
+      "explanation": "alt → älter. Short adjectives with a/o/u usually take an umlaut: alt → älter, groß → größer, jung → jünger. And German never builds comparatives with \"mehr\" (\"mehr alt\" ✗)."
+    },
+    {
+      "type": "blank",
+      "question": "Der Februar ist ___ als der Januar. (kurz)",
+      "answers": [
+        "kürzer"
+      ],
+      "tip": "Umlaut nicht vergessen!",
+      "explanation": "kurz → kürzer (with umlaut). Comparative pattern: adjective + -er + als: Der Februar ist kürzer als der Januar."
+    },
+    {
+      "type": "choice",
+      "question": "Deutsch finde ich schwer – aber die Artikel sind am ___.",
+      "options": [
+        "schwersten",
+        "schwerste",
+        "schwerer"
+      ],
+      "answer": "schwersten",
+      "tip": "Superlativ mit \"am\": am + Adjektiv + -sten.",
+      "explanation": "The superlative after \"am\" always ends in -sten: am schwersten, am schönsten, am besten. Use this form when the superlative stands alone, not before a noun."
+    },
+    {
+      "type": "choice",
+      "question": "Dieses Restaurant ist viel ___ als das andere.",
+      "options": [
+        "besser",
+        "güter",
+        "mehr gut"
+      ],
+      "answer": "besser",
+      "tip": "\"gut\" ist unregelmäßig – wie im Englischen (good/better).",
+      "explanation": "gut → besser → am besten, completely irregular, just like English good/better/best. \"güter\" doesn't exist."
+    },
+    {
+      "type": "blank",
+      "question": "Ich trinke ___ Tee als Kaffee. (gern)",
+      "answers": [
+        "lieber"
+      ],
+      "tip": "\"gern\" hat einen ganz unregelmäßigen Komparativ.",
+      "explanation": "gern → lieber → am liebsten (irregular). \"Ich trinke lieber Tee\" = I prefer tea. This trio is essential for talking about preferences."
+    },
+    {
+      "type": "choice",
+      "question": "Der Mount Everest ist der ___ Berg der Welt.",
+      "options": [
+        "höchste",
+        "höhste",
+        "hochste"
+      ],
+      "answer": "höchste",
+      "tip": "\"hoch\" ist unregelmäßig: Das \"ch\" verändert sich.",
+      "explanation": "hoch → höher → der höchste / am höchsten. Note the consonant change: hoch, but höher (the c disappears), then höchste (ch returns). A small but famous irregularity."
+    },
+    {
+      "type": "choice",
+      "question": "Usain Bolt läuft ___ als alle anderen.",
+      "options": [
+        "schneller",
+        "schnellere",
+        "mehr schnell"
+      ],
+      "answer": "schneller",
+      "tip": "Komparativ + als. Nach einem Verb gibt es keine Extra-Endung.",
+      "explanation": "schnell → schneller. As an adverb after a verb, the comparative takes no extra ending: Er läuft schneller als ... \"schnellere\" would only appear before a noun (die schnellere Läuferin)."
+    },
+    {
+      "type": "choice",
+      "question": "Von allen Jahreszeiten mag ich den Sommer am ___.",
+      "options": [
+        "liebsten",
+        "lieber",
+        "liebste"
+      ],
+      "answer": "liebsten",
+      "tip": "Superlativ von \"gern\".",
+      "explanation": "gern → lieber → am liebsten: Ich mag den Sommer am liebsten = summer is my favorite. After \"am\" the ending is always -sten."
+    },
+    {
+      "type": "blank",
+      "question": "Ein Auto ist teuer, aber ein Haus ist noch viel ___. (teuer)",
+      "answers": [
+        "teurer"
+      ],
+      "tip": "Vorsicht: Ein \"e\" verschwindet!",
+      "explanation": "Adjectives ending in -er or -el drop that e in the comparative: teuer → teurer, dunkel → dunkler. So: ein Haus ist teurer."
+    },
+    {
+      "type": "choice",
+      "question": "Diese Aufgabe ist genauso schwer ___ die letzte.",
+      "options": [
+        "wie",
+        "als",
+        "so"
+      ],
+      "answer": "wie",
+      "tip": "Gleichheit oder Unterschied? \"genauso\" ist das Signal!",
+      "explanation": "Equal comparisons use (genau)so ... wie: genauso schwer wie. \"als\" only follows a comparative: schwerer als. Mixing up wie/als is a classic mistake — even native speakers do it!"
+    },
+    {
+      "type": "choice",
+      "question": "Je mehr ich übe, desto ___ werde ich.",
+      "options": [
+        "besser",
+        "gut",
+        "am besten"
+      ],
+      "answer": "besser",
+      "tip": "je + Komparativ, desto + Komparativ.",
+      "explanation": "The pattern \"je ... desto\" (the more ... the ...) takes a comparative on both sides: Je mehr ich übe, desto besser werde ich."
+    },
+    {
+      "type": "order",
+      "question": "Bilde einen Satz:",
+      "words": [
+        "Mein",
+        "Bruder",
+        "ist",
+        "größer",
+        "als",
+        "ich"
+      ],
+      "answers": [
+        "Mein Bruder ist größer als ich"
+      ],
+      "tip": "Subjekt – Verb – Komparativ – als – Vergleichsperson.",
+      "explanation": "Comparison structure: Mein Bruder ist größer als ich. After \"als\" the person stays in the nominative, because a verb is implied: ... als ich (bin)."
+    },
+    {
+      "type": "blank",
+      "question": "Die alte Bahn war viel ___ als der ICE. (langsam)",
+      "answers": [
+        "langsamer"
+      ],
+      "tip": "Einfach -er anhängen – dieses Adjektiv bekommt KEINEN Umlaut.",
+      "explanation": "Not every a/o/u adjective takes an umlaut: langsam → langsamer (no umlaut). Adjectives with more than one syllable usually don't: langsamer, dunkler, sauberer. The umlaut is mainly for short ones: älter, größer, kürzer."
+    },
+    {
+      "type": "choice",
+      "question": "Das ist das ___ Buch, das ich je gelesen habe.",
+      "options": [
+        "beste",
+        "bessere",
+        "am besten"
+      ],
+      "answer": "beste",
+      "tip": "Superlativ VOR einem Nomen → mit Artikel und Adjektiv-Endung, ohne \"am\".",
+      "explanation": "Before a noun, the superlative works like a normal adjective: das beste Buch. \"am besten\" is only for the stand-alone form (Dieses Buch gefällt mir am besten), and \"bessere\" is just the comparative."
+    },
+    {
+      "type": "blank",
+      "question": "Berlin ist ___ als Hamburg. (groß)",
+      "answers": [
+        "größer",
+        "grösser"
+      ],
+      "tip": "Kurzes Adjektiv mit o → Umlaut!",
+      "explanation": "groß → größer (with umlaut): Berlin ist größer als Hamburg. And note it's \"als\", never \"wie\", after a comparative."
+    },
+    {
+      "type": "choice",
+      "question": "Welcher Berg ist ___: die Zugspitze oder der Mont Blanc?",
+      "options": [
+        "höher",
+        "am höchsten",
+        "hoch"
+      ],
+      "answer": "höher",
+      "tip": "Es werden nur ZWEI Berge verglichen!",
+      "explanation": "Comparing exactly two things takes the comparative, not the superlative: Welcher ist höher? The superlative (am höchsten) only makes sense for three or more."
+    },
+    {
+      "type": "blank",
+      "question": "Fußball ist die ___ Sportart in Deutschland. (beliebt)",
+      "answers": [
+        "beliebteste"
+      ],
+      "tip": "Superlativ vor dem Nomen: die + Adjektiv + -este.",
+      "explanation": "Superlative before a noun: die beliebteste Sportart. Adjectives ending in -t or -d insert an e: beliebt → beliebteste, breit → breiteste. Without it, it would be hard to pronounce."
+    },
+    {
+      "type": "choice",
+      "question": "Er isst jetzt ___ Gemüse als früher.",
+      "options": [
+        "mehr",
+        "mehrere",
+        "viel"
+      ],
+      "answer": "mehr",
+      "tip": "Komparativ von \"viel\" – ganz unregelmäßig.",
+      "explanation": "viel → mehr → am meisten (irregular): Er isst mehr Gemüse als früher. \"mehrere\" is a different word meaning \"several\", and plain \"viel\" can't combine with \"als\"."
+    },
+    {
+      "type": "choice",
+      "question": "Je älter man wird, ___ schneller vergeht die Zeit.",
+      "options": [
+        "desto",
+        "so",
+        "dann"
+      ],
+      "answer": "desto",
+      "tip": "\"je\" am Anfang hat einen festen Partner.",
+      "explanation": "\"je ... desto\" is a fixed pair: Je älter man wird, desto schneller vergeht die Zeit = The older you get, the faster time passes. \"umso\" also works instead of \"desto\"."
+    },
+    {
+      "type": "blank",
+      "question": "Der Rhein ist lang, aber die Donau ist noch ___. (lang)",
+      "answers": [
+        "länger"
+      ],
+      "tip": "Kurzes Adjektiv mit a → Umlaut!",
+      "explanation": "lang → länger (with umlaut): Die Donau ist länger als der Rhein. Other one-syllable adjectives with umlaut: alt → älter, jung → jünger, kalt → kälter, warm → wärmer."
+    }
+  ]
+}

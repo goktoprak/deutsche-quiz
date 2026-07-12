@@ -1,0 +1,255 @@
+{
+  "id": "relativsaetze",
+  "name": "Relativsätze",
+  "icon": "🧩",
+  "description": "der Mann, der …; das Haus, in dem …",
+  "questions": [
+    {
+      "type": "choice",
+      "question": "Das ist der Mann, ___ nebenan wohnt.",
+      "options": [
+        "der",
+        "den",
+        "dem"
+      ],
+      "answer": "der",
+      "tip": "Wer wohnt nebenan? Das Relativpronomen ist hier das Subjekt.",
+      "explanation": "The relative pronoun is the subject of its clause (he lives next door) → nominative masculine: der. Relative pronouns look like definite articles."
+    },
+    {
+      "type": "choice",
+      "question": "Die Frau, ___ ich gestern getroffen habe, ist Ärztin.",
+      "options": [
+        "die",
+        "der",
+        "denen"
+      ],
+      "answer": "die",
+      "tip": "Wen habe ich getroffen? → Akkusativ.",
+      "explanation": "\"treffen\" takes a direct object → accusative feminine: die. Feminine \"die\" is identical in nominative and accusative — the difference only becomes visible with masculine nouns (der/den)."
+    },
+    {
+      "type": "choice",
+      "question": "Das Kind, ___ dort spielt, ist meine Nichte.",
+      "options": [
+        "das",
+        "dass",
+        "die"
+      ],
+      "answer": "das",
+      "tip": "Vorsicht: Das Relativpronomen hat ein s – die Konjunktion hat zwei!",
+      "explanation": "The relative pronoun for \"das Kind\" is \"das\" (one s). \"dass\" with double s is the conjunction \"that\" (Ich hoffe, dass ...) — a completely different word."
+    },
+    {
+      "type": "choice",
+      "question": "Der Film, ___ wir gestern gesehen haben, war ziemlich langweilig.",
+      "options": [
+        "den",
+        "der",
+        "dem"
+      ],
+      "answer": "den",
+      "tip": "Wen oder was haben wir gesehen? → Akkusativ maskulin.",
+      "explanation": "The film is the direct object of \"sehen\" → accusative masculine: den. Compare: der Film, DER langweilig war (subject) vs. der Film, DEN wir gesehen haben (object)."
+    },
+    {
+      "type": "choice",
+      "question": "Die Freunde, ___ ich beim Umzug helfe, wohnen jetzt in Köln.",
+      "options": [
+        "denen",
+        "die",
+        "den"
+      ],
+      "answer": "denen",
+      "tip": "\"helfen\" + Dativ! Und \"die Freunde\" ist Plural.",
+      "explanation": "\"helfen\" always takes the dative, and the dative plural relative pronoun is \"denen\": die Freunde, denen ich helfe. Watch out — it's \"denen\", not \"den\" like the article."
+    },
+    {
+      "type": "choice",
+      "question": "Das Haus, in ___ wir wohnen, ist über hundert Jahre alt.",
+      "options": [
+        "dem",
+        "das",
+        "der"
+      ],
+      "answer": "dem",
+      "tip": "Wo wohnen wir? \"in\" + Position → welcher Kasus?",
+      "explanation": "With a preposition, the preposition decides the case: wohnen in + location → dative. Das Haus (neuter) → in dem: the house in which we live."
+    },
+    {
+      "type": "choice",
+      "question": "Die Stadt, in ___ ich geboren bin, liegt am Meer.",
+      "options": [
+        "der",
+        "dem",
+        "die"
+      ],
+      "answer": "der",
+      "tip": "die Stadt + \"in\" (Position) → Dativ feminin.",
+      "explanation": "\"in\" with a location takes the dative; the feminine dative is \"der\": die Stadt, in der ich geboren bin = the city I was born in."
+    },
+    {
+      "type": "choice",
+      "question": "Ist das der Bus, ___ zum Bahnhof fährt?",
+      "options": [
+        "der",
+        "den",
+        "das"
+      ],
+      "answer": "der",
+      "tip": "Der Bus fährt selbst – Subjekt!",
+      "explanation": "The bus is doing the driving → subject → nominative masculine: der Bus, der zum Bahnhof fährt."
+    },
+    {
+      "type": "choice",
+      "question": "Der Kollege, mit ___ ich das Projekt mache, ist sehr nett.",
+      "options": [
+        "dem",
+        "den",
+        "der"
+      ],
+      "answer": "dem",
+      "tip": "\"mit\" verlangt immer denselben Kasus.",
+      "explanation": "\"mit\" always takes the dative → mit dem. In German the preposition must stand before the relative pronoun: der Kollege, mit dem ich arbeite — never at the end like English (\"the colleague I work with\")."
+    },
+    {
+      "type": "order",
+      "question": "Vervollständige: „Das ist das Lied, …“",
+      "words": [
+        "das",
+        "mir",
+        "sehr",
+        "gefällt"
+      ],
+      "answers": [
+        "das mir sehr gefällt"
+      ],
+      "tip": "Relativpronomen zuerst – und das Verb ganz ans Ende!",
+      "explanation": "A relative clause is a subordinate clause, so the verb goes to the end: Das ist das Lied, das mir sehr gefällt. Note that German never drops the relative pronoun the way English does (\"the song I like\")."
+    },
+    {
+      "type": "choice",
+      "question": "Kinder, ___ viel lesen, haben oft einen großen Wortschatz.",
+      "options": [
+        "die",
+        "denen",
+        "das"
+      ],
+      "answer": "die",
+      "tip": "Wer liest viel? Subjekt im Plural.",
+      "explanation": "Plural subject → nominative plural \"die\": Kinder, die viel lesen. The plural relative pronoun \"die\" is the same for all genders."
+    },
+    {
+      "type": "choice",
+      "question": "Das ist die beste Pizza, ___ ich je gegessen habe.",
+      "options": [
+        "die",
+        "der",
+        "das"
+      ],
+      "answer": "die",
+      "tip": "Wen oder was habe ich gegessen? Die Pizza ist feminin.",
+      "explanation": "Direct object of \"essen\" → accusative feminine: die. After superlatives you'll use this pattern a lot: der beste Film, den ich je gesehen habe; das schönste Lied, das ich kenne."
+    },
+    {
+      "type": "choice",
+      "question": "Die Leute, ___ hier wohnen, sind sehr freundlich.",
+      "options": [
+        "die",
+        "denen",
+        "das"
+      ],
+      "answer": "die",
+      "tip": "Wer wohnt hier? Subjekt im Plural.",
+      "explanation": "The relative pronoun is the subject (they live here) → nominative plural: die Leute, die hier wohnen. \"denen\" would only be right for a dative, e.g. die Leute, denen ich helfe."
+    },
+    {
+      "type": "choice",
+      "question": "Der Freund, ___ ich am meisten vertraue, wohnt leider weit weg.",
+      "options": [
+        "dem",
+        "den",
+        "der"
+      ],
+      "answer": "dem",
+      "tip": "\"vertrauen\" ist ein Dativ-Verb (wie helfen und danken)!",
+      "explanation": "\"vertrauen\" (to trust) takes the dative → masculine dative: der Freund, dem ich vertraue. The dative verbs (helfen, danken, vertrauen, gratulieren ...) keep their case inside relative clauses too."
+    },
+    {
+      "type": "choice",
+      "question": "Die Lehrerin, ___ ich das Buch gegeben habe, ist heute krank.",
+      "options": [
+        "der",
+        "die",
+        "den"
+      ],
+      "answer": "der",
+      "tip": "Wem habe ich das Buch gegeben? → Dativ feminin.",
+      "explanation": "The teacher is the receiver (indirect object) → dative feminine: der. Die Lehrerin, der ich das Buch gegeben habe = the teacher I gave the book to."
+    },
+    {
+      "type": "choice",
+      "question": "Alles, ___ er sagt, ist wahr.",
+      "options": [
+        "was",
+        "das",
+        "dass"
+      ],
+      "answer": "was",
+      "tip": "Nach \"alles\", \"nichts\", \"etwas\" kommt ein besonderes Relativpronomen.",
+      "explanation": "After alles, nichts, etwas, vieles and das (as a pronoun), the relative pronoun is \"was\": Alles, was er sagt ... Nichts, was ich tue ... — not \"das\"."
+    },
+    {
+      "type": "choice",
+      "question": "Die Stadt, aus ___ er kommt, liegt in Bayern.",
+      "options": [
+        "der",
+        "dem",
+        "die"
+      ],
+      "answer": "der",
+      "tip": "\"aus\" + Dativ, und die Stadt ist feminin.",
+      "explanation": "\"aus\" always takes the dative → feminine dative: die Stadt, aus der er kommt = the city he comes from. The preposition moves in front of the relative pronoun in German."
+    },
+    {
+      "type": "choice",
+      "question": "Das Fahrrad, ___ ich mir letzte Woche gekauft habe, war ziemlich teuer.",
+      "options": [
+        "das",
+        "dass",
+        "dem"
+      ],
+      "answer": "das",
+      "tip": "Was habe ich gekauft? → Akkusativ neutral. Und Vorsicht mit der Schreibweise!",
+      "explanation": "Direct object → accusative neuter: das Fahrrad, das ich gekauft habe. Never \"dass\" — after a noun with a comma, a relative pronoun follows, and it's always written with one s."
+    },
+    {
+      "type": "order",
+      "question": "Vervollständige: „Ist das der Mann, …“",
+      "words": [
+        "den",
+        "du",
+        "gestern",
+        "gesehen",
+        "hast"
+      ],
+      "answers": [
+        "den du gestern gesehen hast"
+      ],
+      "tip": "Relativpronomen (Akkusativ!) zuerst, konjugiertes Verb ganz ans Ende.",
+      "explanation": "The relative pronoun opens the clause and the conjugated verb closes it: Ist das der Mann, den du gestern gesehen hast? \"den\" is accusative because the man is the object of seeing."
+    },
+    {
+      "type": "choice",
+      "question": "Meine Oma, ___ schon 80 Jahre alt ist, fährt immer noch Auto.",
+      "options": [
+        "die",
+        "der",
+        "das"
+      ],
+      "answer": "die",
+      "tip": "Wer ist 80 Jahre alt? Subjekt, feminin.",
+      "explanation": "The grandma is the subject of the relative clause → nominative feminine: die. Meine Oma, die 80 ist, fährt noch Auto = My grandma, who is 80, still drives."
+    }
+  ]
+}

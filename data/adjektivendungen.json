@@ -1,0 +1,231 @@
+{
+  "id": "adjektivendungen",
+  "name": "Adjektivendungen",
+  "icon": "🎨",
+  "description": "der alte Mann, ein alter Mann, alte Männer …",
+  "questions": [
+    {
+      "type": "choice",
+      "question": "Der ___ Mann dort wartet auf den Bus.",
+      "options": [
+        "alte",
+        "alter",
+        "alten"
+      ],
+      "answer": "alte",
+      "tip": "Nach \"der\" (Nominativ) ist die Endung ganz einfach.",
+      "explanation": "After the definite article in the nominative, the adjective just takes -e: der alte Mann, die alte Frau, das alte Haus. The article already shows gender and case, so the adjective can relax."
+    },
+    {
+      "type": "choice",
+      "question": "Ich habe gestern einen wirklich ___ Film gesehen.",
+      "options": [
+        "tollen",
+        "toller",
+        "tolles"
+      ],
+      "answer": "tollen",
+      "tip": "\"einen\" zeigt schon: Akkusativ maskulin.",
+      "explanation": "After \"einen\" (masculine accusative) the adjective takes -en: einen tollen Film. Rule of thumb: masculine accusative → -en, and everything in the dative → -en."
+    },
+    {
+      "type": "blank",
+      "question": "Das ist wirklich ein ___ Buch. (interessant)",
+      "answers": [
+        "interessantes"
+      ],
+      "tip": "\"ein\" zeigt nicht, ob das Wort maskulin oder neutral ist – das Adjektiv muss helfen!",
+      "explanation": "\"ein\" looks identical for masculine and neuter, so the adjective must show the gender: ein interessantes Buch (das → -es). Compare: ein interessanter Mann (der → -er)."
+    },
+    {
+      "type": "choice",
+      "question": "Wir wohnen in einer ___ Stadt im Süden.",
+      "options": [
+        "kleinen",
+        "kleine",
+        "kleiner"
+      ],
+      "answer": "kleinen",
+      "tip": "\"in einer\" = Dativ. Im Dativ gibt es nur eine Endung.",
+      "explanation": "In the dative, adjectives after an article always take -en: in einer kleinen Stadt, mit dem alten Auto. Dative → -en, no exceptions after articles."
+    },
+    {
+      "type": "choice",
+      "question": "Die ___ Schuhe gefallen mir sehr.",
+      "options": [
+        "neuen",
+        "neue",
+        "neuer"
+      ],
+      "answer": "neuen",
+      "tip": "\"die\" + Plural: Welche Endung bekommt das Adjektiv?",
+      "explanation": "After \"die\" in the plural the adjective takes -en: die neuen Schuhe. Plural with any article → -en. Without an article it would be: neue Schuhe."
+    },
+    {
+      "type": "blank",
+      "question": "Er trinkt seinen Kaffee am liebsten ___. (schwarz)",
+      "answers": [
+        "schwarz"
+      ],
+      "tip": "Das Adjektiv steht NACH dem Nomen – bekommt es überhaupt eine Endung?",
+      "explanation": "Adjectives that come after the noun (predicative) never take an ending: Er trinkt den Kaffee schwarz. Der Kaffee ist stark. Endings only appear before a noun: schwarzer Kaffee."
+    },
+    {
+      "type": "choice",
+      "question": "Das ___ Auto da drüben gehört meinem Nachbarn.",
+      "options": [
+        "rote",
+        "rotes",
+        "roten"
+      ],
+      "answer": "rote",
+      "tip": "Nach \"das\" im Nominativ: einfache Endung.",
+      "explanation": "After \"das\" the adjective takes -e: das rote Auto. \"rotes\" is only used when there's no article to show the gender: rotes Auto."
+    },
+    {
+      "type": "choice",
+      "question": "Sie hat immer ___ Ideen.",
+      "options": [
+        "gute",
+        "guten",
+        "gutes"
+      ],
+      "answer": "gute",
+      "tip": "Plural ohne Artikel – das Adjektiv übernimmt die Endung von \"die\".",
+      "explanation": "With no article in the plural, the adjective takes the strong ending -e (borrowed from \"die\"): gute Ideen, alte Häuser, kleine Kinder."
+    },
+    {
+      "type": "choice",
+      "question": "Ich helfe dem ___ Mann über die Straße.",
+      "options": [
+        "alten",
+        "alte",
+        "alter"
+      ],
+      "answer": "alten",
+      "tip": "\"dem\" = Dativ → immer dieselbe Endung.",
+      "explanation": "Dative after an article always means -en: dem alten Mann. If you memorize only one adjective rule, make it this one — dative → -en."
+    },
+    {
+      "type": "blank",
+      "question": "Bei ___ Wetter bleiben wir lieber zu Hause. (schlecht)",
+      "answers": [
+        "schlechtem"
+      ],
+      "tip": "Kein Artikel! Das Adjektiv muss die Dativ-Endung von \"dem\" übernehmen.",
+      "explanation": "Without an article, the adjective takes the strong ending — here dative neuter -em (like \"dem\"): bei schlechtem Wetter. Common fixed phrases: bei schönem Wetter, mit großem Interesse."
+    },
+    {
+      "type": "choice",
+      "question": "Ich hätte gern ein Kilo ___ Äpfel.",
+      "options": [
+        "rote",
+        "roten",
+        "rotes"
+      ],
+      "answer": "rote",
+      "tip": "Plural ohne Artikel → starke Endung (wie \"die\").",
+      "explanation": "No article in the plural → the adjective borrows the ending of the missing article \"die\": rote Äpfel."
+    },
+    {
+      "type": "choice",
+      "question": "Am Wochenende besuchen wir unsere ___ Großeltern.",
+      "options": [
+        "alten",
+        "alte",
+        "alter"
+      ],
+      "answer": "alten",
+      "tip": "Nach Possessivartikel (unsere) im Plural → wie nach \"die\".",
+      "explanation": "After possessives in the plural, adjectives take -en just like after \"die\": unsere alten Großeltern, meine neuen Schuhe."
+    },
+    {
+      "type": "choice",
+      "question": "Ein ___ Mann hat mir den Weg gezeigt.",
+      "options": [
+        "freundlicher",
+        "freundliche",
+        "freundlichen"
+      ],
+      "answer": "freundlicher",
+      "tip": "\"ein\" zeigt beim Maskulinum nicht den Nominativ – das Adjektiv muss es tun (wie \"der\").",
+      "explanation": "After \"ein\" in the masculine nominative, the adjective shows the gender with -er (borrowed from \"der\"): ein freundlicher Mann. Compare: der freundliche Mann — with \"der\" the adjective relaxes to -e."
+    },
+    {
+      "type": "blank",
+      "question": "Bei dem ___ Wetter bleiben wir lieber drinnen. (kalt)",
+      "answers": [
+        "kalten"
+      ],
+      "tip": "Diesmal MIT Artikel: \"dem\" ist schon da → welche Endung?",
+      "explanation": "Here the article \"dem\" already shows the dative, so the adjective takes the weak ending -en: bei dem kalten Wetter. Without the article it would be strong: bei kaltem Wetter."
+    },
+    {
+      "type": "choice",
+      "question": "Ich trinke morgens immer eine Tasse ___ Kaffee.",
+      "options": [
+        "schwarzen",
+        "schwarzer",
+        "schwarzes"
+      ],
+      "answer": "schwarzen",
+      "tip": "Kein Artikel vor dem Kaffee! \"trinken\" + Akkusativ maskulin → starke Endung.",
+      "explanation": "No article before \"Kaffee\", so the adjective takes the strong ending — masculine accusative -en (like \"den\"): Ich trinke eine Tasse schwarzen Kaffee. The measured noun agrees with the case of the phrase."
+    },
+    {
+      "type": "choice",
+      "question": "Wo ist mein ___ T-Shirt?",
+      "options": [
+        "rotes",
+        "rote",
+        "roten"
+      ],
+      "answer": "rotes",
+      "tip": "\"mein\" funktioniert wie \"ein\": Es zeigt das Genus nicht → das Adjektiv muss es zeigen.",
+      "explanation": "Possessives behave like \"ein\": in the neuter nominative they don't show the gender, so the adjective does it with -es (like \"das\"): mein rotes T-Shirt."
+    },
+    {
+      "type": "blank",
+      "question": "Er wohnt in einem ___ Haus am Stadtrand. (groß)",
+      "answers": [
+        "großen",
+        "grossen"
+      ],
+      "tip": "\"in einem\" = Dativ → du kennst die Regel!",
+      "explanation": "Dative after an article → -en, always: in einem großen Haus. This single rule covers a huge share of everyday German — when in doubt after ein/dem/der (dative), pick -en."
+    },
+    {
+      "type": "choice",
+      "question": "___ Tee mit Honig hilft gegen Halsschmerzen.",
+      "options": [
+        "Heißer",
+        "Heiße",
+        "Heißen"
+      ],
+      "answer": "Heißer",
+      "tip": "Kein Artikel! Der Tee ist maskulin und Subjekt des Satzes.",
+      "explanation": "No article + masculine nominative → the adjective takes the strong ending -er (like \"der\"): Heißer Tee hilft. The adjective always jumps in to show case and gender when the article is missing."
+    },
+    {
+      "type": "choice",
+      "question": "Die ___ Nachbarn sind sehr nett.",
+      "options": [
+        "neuen",
+        "neue",
+        "neuer"
+      ],
+      "answer": "neuen",
+      "tip": "\"die\" + Plural → dieselbe Endung wie immer nach Artikel im Plural.",
+      "explanation": "Plural with an article → -en: die neuen Nachbarn. Compare without an article: Neue Nachbarn sind eingezogen (strong -e). The article decides which pattern applies."
+    },
+    {
+      "type": "blank",
+      "question": "Ich esse zum Frühstück am liebsten ___ Brot. (frisch)",
+      "answers": [
+        "frisches"
+      ],
+      "tip": "Kein Artikel! Das Brot ist neutral → starke Endung wie \"das\".",
+      "explanation": "No article + neuter accusative → strong ending -es (like \"das\"): frisches Brot. Same pattern: kaltes Wasser, deutsches Bier, warmes Essen."
+    }
+  ]
+}

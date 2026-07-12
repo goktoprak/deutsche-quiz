@@ -1,0 +1,245 @@
+{
+  "id": "modalverben",
+  "name": "Modalverben",
+  "icon": "🚦",
+  "description": "müssen, können, dürfen, sollen, wollen",
+  "questions": [
+    {
+      "type": "choice",
+      "question": "Ich ___ heute leider nicht kommen, ich bin krank.",
+      "options": [
+        "kann",
+        "kannst",
+        "könnt"
+      ],
+      "answer": "kann",
+      "tip": "Konjugation von \"können\": Welche Form passt zu \"ich\"?",
+      "explanation": "Modal verbs are irregular in the singular: ich kann, du kannst, er kann (no umlaut!), but wir können, ihr könnt, sie können."
+    },
+    {
+      "type": "choice",
+      "question": "Hier ___ man nicht rauchen – es ist streng verboten.",
+      "options": [
+        "darf",
+        "muss",
+        "soll"
+      ],
+      "answer": "darf",
+      "tip": "Verbot = keine Erlaubnis.",
+      "explanation": "\"nicht dürfen\" expresses prohibition: Hier darf man nicht rauchen = smoking is not allowed here. Careful: \"muss nicht\" would mean you don't have to smoke — quite different!"
+    },
+    {
+      "type": "blank",
+      "question": "Ich ___ jeden Tag um 6 Uhr aufstehen, weil meine Arbeit früh beginnt. (müssen)",
+      "answers": [
+        "muss"
+      ],
+      "tip": "Notwendigkeit / Pflicht. Achtung: Die ich-Form hat keinen Umlaut!",
+      "explanation": "\"müssen\" expresses necessity. The singular loses the umlaut: ich muss, du musst, er muss — but wir müssen, sie müssen."
+    },
+    {
+      "type": "choice",
+      "question": "___ du mir bitte kurz helfen?",
+      "options": [
+        "Kannst",
+        "Könnt",
+        "Kann"
+      ],
+      "answer": "Kannst",
+      "tip": "Eine höfliche Bitte an \"du\".",
+      "explanation": "\"Kannst du ...?\" is the standard friendly request: du kannst → Kannst du? \"Könnt\" is the ihr-form and \"kann\" belongs to ich/er."
+    },
+    {
+      "type": "choice",
+      "question": "Der Arzt sagt, ich ___ mehr Sport machen.",
+      "options": [
+        "soll",
+        "will",
+        "darf"
+      ],
+      "answer": "soll",
+      "tip": "Ein Rat oder eine Empfehlung von einer anderen Person.",
+      "explanation": "\"sollen\" is used for advice or instructions coming from someone else: The doctor says I should exercise more. \"wollen\" would express my own wish, not the doctor's advice."
+    },
+    {
+      "type": "choice",
+      "question": "Die Kinder ___ heute nicht in die Schule gehen – es sind Ferien!",
+      "options": [
+        "müssen",
+        "muss",
+        "musst"
+      ],
+      "answer": "müssen",
+      "tip": "\"die Kinder\" = sie (Plural).",
+      "explanation": "\"Die Kinder\" is plural → müssen. Meaning check: \"müssen nicht\" = don't have to (it's the holidays, no obligation). It does NOT mean \"must not\" like in English — that would be \"dürfen nicht\"."
+    },
+    {
+      "type": "blank",
+      "question": "___ ich das Fenster öffnen? Es ist so warm hier. (dürfen)",
+      "answers": [
+        "darf"
+      ],
+      "tip": "Du bittest höflich um Erlaubnis. Die ich-Form hat keinen Umlaut!",
+      "explanation": "\"Darf ich ...?\" asks for permission: May I open the window? The singular forms lose the umlaut: ich darf, du darfst, er darf — but wir dürfen."
+    },
+    {
+      "type": "choice",
+      "question": "Mein kleiner Sohn ___ später Pilot werden.",
+      "options": [
+        "will",
+        "willst",
+        "wollt"
+      ],
+      "answer": "will",
+      "tip": "\"wollen\" = einen starken Wunsch haben. Er-Form!",
+      "explanation": "\"wollen\" expresses a strong wish or intention: er will = he wants to. The forms: ich will, du willst, er will, wir wollen, ihr wollt, sie wollen."
+    },
+    {
+      "type": "order",
+      "question": "Bilde einen Satz:",
+      "words": [
+        "Ich",
+        "muss",
+        "heute",
+        "lange",
+        "arbeiten"
+      ],
+      "answers": [
+        "Ich muss heute lange arbeiten",
+        "Heute muss ich lange arbeiten",
+        "Lange muss ich heute arbeiten"
+      ],
+      "tip": "Das Modalverb steht auf Position 2 – der Infinitiv ganz am Ende.",
+      "explanation": "Modal verb structure: the conjugated modal sits in second position, the main verb goes to the very end as an infinitive: Ich muss heute lange arbeiten. This 'verb bracket' (Satzklammer) is central to German word order."
+    },
+    {
+      "type": "choice",
+      "question": "Ihr ___ hier nicht parken! Seht ihr das Schild nicht?",
+      "options": [
+        "dürft",
+        "darf",
+        "dürfen"
+      ],
+      "answer": "dürft",
+      "tip": "\"ihr\" hat seine eigene Form.",
+      "explanation": "ihr dürft — the ihr-form of dürfen. \"darf\" is ich/er and \"dürfen\" is wir/sie. And \"nicht dürfen\" = prohibited (there's a no-parking sign)."
+    },
+    {
+      "type": "choice",
+      "question": "„Musst du morgen arbeiten?“ – „Nein, ich ___ nicht, aber ich möchte trotzdem.“",
+      "options": [
+        "muss",
+        "darf",
+        "soll"
+      ],
+      "answer": "muss",
+      "tip": "Die Antwort wiederholt das Verb aus der Frage.",
+      "explanation": "The answer echoes the modal from the question: Musst du? → Nein, ich muss nicht = I don't have to. Remember: German \"muss nicht\" = \"don't have to\", NOT \"must not\" (that would be \"darf nicht\")."
+    },
+    {
+      "type": "blank",
+      "question": "Meine Tochter ist erst vier, aber sie ___ schon ihren Namen schreiben. (können)",
+      "answers": [
+        "kann"
+      ],
+      "tip": "Fähigkeit. sie (Singular) – ohne Umlaut!",
+      "explanation": "\"können\" expresses ability: sie kann = she can. Third person singular takes no umlaut and no -t: sie kann (not \"sie könnt\" — that's the ihr-form)."
+    },
+    {
+      "type": "choice",
+      "question": "___ Sie mir bitte sagen, wo der Bahnhof ist?",
+      "options": [
+        "Könnten",
+        "Kannst",
+        "Könnt"
+      ],
+      "answer": "Könnten",
+      "tip": "Höfliche Frage an eine fremde Person (Sie-Form!).",
+      "explanation": "With the formal \"Sie\" you need the Sie-form: Könnten Sie ...? The Konjunktiv II form \"könnten\" is extra polite — the standard way to ask strangers for help. \"Kannst\" (du) and \"könnt\" (ihr) are informal."
+    },
+    {
+      "type": "choice",
+      "question": "Ich ___ jetzt leider gehen, mein Zug fährt gleich.",
+      "options": [
+        "muss",
+        "darf",
+        "soll"
+      ],
+      "answer": "muss",
+      "tip": "Der Zug fährt gleich – es gibt keine Wahl!",
+      "explanation": "\"müssen\" = necessity, no choice: Ich muss gehen, my train is leaving. \"darf\" would mean I'm allowed to go and \"soll\" that someone told me to — neither fits the urgency."
+    },
+    {
+      "type": "blank",
+      "question": "Du ___ nicht so viel Cola trinken, das ist ungesund. (sollen)",
+      "answers": [
+        "sollst",
+        "solltest"
+      ],
+      "tip": "Ein Rat an \"du\". Es gibt zwei mögliche Formen!",
+      "explanation": "Advice with \"sollen\": Du sollst nicht ... (fairly direct) or softer with Konjunktiv II: Du solltest nicht ... = you shouldn't. Both work here; \"solltest\" sounds friendlier."
+    },
+    {
+      "type": "choice",
+      "question": "___ ihr am Wochenende mit ins Kino kommen?",
+      "options": [
+        "Wollt",
+        "Willst",
+        "Wollen"
+      ],
+      "answer": "Wollt",
+      "tip": "Die Frage geht an \"ihr\".",
+      "explanation": "ihr wollt → Wollt ihr ...? \"Willst\" is the du-form and \"wollen\" belongs to wir/sie/Sie. The ihr-forms of modals are regular: ihr wollt, ihr könnt, ihr müsst."
+    },
+    {
+      "type": "blank",
+      "question": "Ich ___ bitte einen Kaffee und ein Stück Kuchen. (möchten)",
+      "answers": [
+        "möchte"
+      ],
+      "tip": "So bestellt man höflich im Café.",
+      "explanation": "\"möchten\" (would like) is the polite way to order: Ich möchte einen Kaffee. It's actually the Konjunktiv II of \"mögen\" — much politer than \"ich will\" (I want), which sounds demanding."
+    },
+    {
+      "type": "choice",
+      "question": "Als Kind ___ ich keinen Kaffee trinken.",
+      "options": [
+        "durfte",
+        "darf",
+        "dürfte"
+      ],
+      "answer": "durfte",
+      "tip": "\"Als Kind\" = Vergangenheit! Und die Form mit Umlaut ist Konjunktiv.",
+      "explanation": "\"Als Kind\" requires the past: durfte (wasn't allowed to). \"dürfte\" with umlaut is Konjunktiv II (\"would be allowed\") — in the Präteritum, modals always lose the umlaut: durfte, konnte, musste."
+    },
+    {
+      "type": "choice",
+      "question": "Man ___ in der Bibliothek leise sein.",
+      "options": [
+        "muss",
+        "kann",
+        "will"
+      ],
+      "answer": "muss",
+      "tip": "Das ist eine Regel – keine Möglichkeit und kein Wunsch.",
+      "explanation": "Rules are expressed with \"müssen\": Man muss leise sein = one must be quiet. \"kann\" would say it's merely possible and \"will\" that someone wants to — neither expresses a rule."
+    },
+    {
+      "type": "order",
+      "question": "Bilde einen Satz:",
+      "words": [
+        "Hier",
+        "darf",
+        "man",
+        "nicht",
+        "telefonieren"
+      ],
+      "answers": [
+        "Hier darf man nicht telefonieren",
+        "Man darf hier nicht telefonieren"
+      ],
+      "tip": "Modalverb auf Position 2, Infinitiv ans Ende – und \"nicht\" direkt vor den Infinitiv.",
+      "explanation": "The modal takes second position, the infinitive goes last, and \"nicht\" stands right before the infinitive: Hier darf man nicht telefonieren = You may not make phone calls here."
+    }
+  ]
+}

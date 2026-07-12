@@ -1,0 +1,226 @@
+{
+  "id": "praeteritum",
+  "name": "Präteritum",
+  "icon": "🕰️",
+  "description": "Vergangenheit: war, hatte, ging, kam …",
+  "questions": [
+    {
+      "type": "choice",
+      "question": "Gestern ___ ich sehr müde.",
+      "options": [
+        "war",
+        "warst",
+        "waren"
+      ],
+      "answer": "war",
+      "tip": "Präteritum von \"sein\" – welche Form passt zu \"ich\"?",
+      "explanation": "Präteritum of \"sein\": ich war, du warst, er/sie/es war, wir waren, ihr wart, sie waren. With \"ich\" → war. For \"sein\" and \"haben\", Germans almost always use Präteritum instead of Perfekt."
+    },
+    {
+      "type": "blank",
+      "question": "Wir ___ letzte Woche leider keine Zeit. (haben)",
+      "answers": [
+        "hatten"
+      ],
+      "tip": "Präteritum von \"haben\" + wir-Form.",
+      "explanation": "Präteritum of \"haben\": ich hatte, du hattest, er hatte, wir hatten, ihr hattet, sie hatten. \"Wir hatten keine Zeit\" = We had no time."
+    },
+    {
+      "type": "choice",
+      "question": "Er ___ um 7 Uhr auf und frühstückte.",
+      "options": [
+        "stand",
+        "stande",
+        "stehte"
+      ],
+      "answer": "stand",
+      "tip": "\"aufstehen\" ist ein starkes Verb – der Vokal ändert sich!",
+      "explanation": "\"stehen\" is a strong (irregular) verb: stehen → stand. So \"aufstehen\" becomes \"stand ... auf\". Strong verbs change their vowel and take no -te ending: gehen→ging, kommen→kam, stehen→stand."
+    },
+    {
+      "type": "blank",
+      "question": "Sie ___ gestern schon früh nach Hause. (gehen)",
+      "answers": [
+        "ging"
+      ],
+      "tip": "Starkes Verb: gehen → g_ng.",
+      "explanation": "\"gehen\" is strong: gehen → ging (ich ging, sie ging). No -te ending — that's the marker of weak verbs like machen → machte."
+    },
+    {
+      "type": "choice",
+      "question": "Früher ___ ich kein Deutsch sprechen.",
+      "options": [
+        "konnte",
+        "kann",
+        "könnte"
+      ],
+      "answer": "konnte",
+      "tip": "\"Früher\" zeigt Vergangenheit. Und Vorsicht: Die Form mit Umlaut ist Konjunktiv!",
+      "explanation": "\"Früher\" (in the past) demands past tense: konnte. Careful with \"könnte\" — that's Konjunktiv II and means \"could/would be able to\" (hypothetical), not past tense. Modal verbs lose their umlaut in Präteritum: können → konnte, müssen → musste, dürfen → durfte."
+    },
+    {
+      "type": "blank",
+      "question": "Der Film ___ wirklich langweilig. (sein)",
+      "answers": [
+        "war"
+      ],
+      "tip": "Der Film = er. Präteritum von \"sein\".",
+      "explanation": "\"Der Film\" is third person singular → war: The film was really boring. ich war, er/sie/es war — the first and third person are identical in Präteritum."
+    },
+    {
+      "type": "choice",
+      "question": "Wir ___ den ganzen Tag am Strand.",
+      "options": [
+        "lagen",
+        "liegten",
+        "legten"
+      ],
+      "answer": "lagen",
+      "tip": "\"liegen\" ist stark: liegen → l_g. \"legten\" kommt von einem anderen Verb!",
+      "explanation": "\"liegen\" (to lie) is strong: liegen → lag → wir lagen. \"liegten\" doesn't exist, and \"legten\" is the Präteritum of \"legen\" (to lay something down) — a different verb."
+    },
+    {
+      "type": "blank",
+      "question": "Er ___ erst um Mitternacht nach Hause. (kommen)",
+      "answers": [
+        "kam"
+      ],
+      "tip": "Starkes Verb: kommen → k_m.",
+      "explanation": "\"kommen\" is strong: kommen → kam. \"Er kam erst um Mitternacht nach Hause\" = He didn't come home until midnight. (\"erst\" = not until / only.)"
+    },
+    {
+      "type": "choice",
+      "question": "Früher ___ meine Oma uns oft Geschichten.",
+      "options": [
+        "erzählte",
+        "erzählt",
+        "erzählten"
+      ],
+      "answer": "erzählte",
+      "tip": "Schwaches Verb: Stamm + -te. Und die Oma ist Singular!",
+      "explanation": "\"erzählen\" is a weak (regular) verb: stem + -te → erzählte. \"meine Oma\" is singular, so no -n: Oma erzählte. \"erzählt\" would be present tense or Partizip II."
+    },
+    {
+      "type": "blank",
+      "question": "Ich ___ gestern einen tollen Film. (sehen)",
+      "answers": [
+        "sah"
+      ],
+      "tip": "Starkes Verb: sehen → s_h.",
+      "explanation": "\"sehen\" is strong: sehen → sah. \"Ich sah gestern einen tollen Film.\" In spoken German you'd usually say \"Ich habe ... gesehen\" (Perfekt), but Präteritum is standard in writing."
+    },
+    {
+      "type": "choice",
+      "question": "___ du schon einmal in Berlin?",
+      "options": [
+        "Warst",
+        "Wart",
+        "Waren"
+      ],
+      "answer": "Warst",
+      "tip": "du-Form von \"war\".",
+      "explanation": "du warst — the du-form takes -st. \"Wart\" belongs to \"ihr\" (ihr wart) and \"waren\" to wir/sie. \"Warst du schon einmal in Berlin?\" = Have you ever been to Berlin?"
+    },
+    {
+      "type": "blank",
+      "question": "Es ___ früher hier einen schönen Park. (geben)",
+      "answers": [
+        "gab"
+      ],
+      "tip": "\"es gibt\" in der Vergangenheit: es g_b.",
+      "explanation": "\"es gibt\" (there is) becomes \"es gab\" (there was) in the past: Es gab hier einen Park = There used to be a park here. \"geben\" is strong: geben → gab."
+    },
+    {
+      "type": "order",
+      "question": "Bilde einen Satz:",
+      "words": [
+        "Früher",
+        "wohnte",
+        "ich",
+        "in",
+        "einem",
+        "kleinen",
+        "Dorf"
+      ],
+      "answers": [
+        "Früher wohnte ich in einem kleinen Dorf",
+        "Ich wohnte früher in einem kleinen Dorf",
+        "In einem kleinen Dorf wohnte ich früher"
+      ],
+      "tip": "Wenn \"Früher\" auf Position 1 steht, kommt das Verb auf Position 2 – und dann das Subjekt.",
+      "explanation": "When a time word like \"früher\" starts the sentence, the verb stays in second position and the subject moves after it (inversion): \"Früher wohnte ich ...\" — never \"Früher ich wohnte\"."
+    },
+    {
+      "type": "blank",
+      "question": "Ich ___ die Antwort leider nicht. (wissen)",
+      "answers": [
+        "wusste"
+      ],
+      "tip": "Gemischtes Verb: Vokalwechsel UND -te-Endung.",
+      "explanation": "\"wissen\" is a mixed verb: it changes its vowel like a strong verb but still takes the weak -te ending: wissen → wusste. Similar mixed verbs: denken → dachte, bringen → brachte, kennen → kannte."
+    },
+    {
+      "type": "choice",
+      "question": "Wir ___ gestern lange über das Problem.",
+      "options": [
+        "sprachen",
+        "sprechten",
+        "sprachten"
+      ],
+      "answer": "sprachen",
+      "tip": "\"sprechen\" ist stark: kein -te! sprechen → spr_chen.",
+      "explanation": "\"sprechen\" is strong: sprechen → sprach → wir sprachen. Strong verbs never take the -te ending, so \"sprechten\" and \"sprachten\" don't exist."
+    },
+    {
+      "type": "blank",
+      "question": "Sie ___ mir gestern einen langen Brief. (schreiben)",
+      "answers": [
+        "schrieb"
+      ],
+      "tip": "Starkes Verb: schreiben → schr__b.",
+      "explanation": "\"schreiben\" is strong: schreiben → schrieb. The pattern ei → ie appears in many strong verbs: schreiben → schrieb, bleiben → blieb, steigen → stieg."
+    },
+    {
+      "type": "choice",
+      "question": "Er ___ mich gestern um Hilfe.",
+      "options": [
+        "bat",
+        "bittete",
+        "bitte"
+      ],
+      "answer": "bat",
+      "tip": "\"bitten\" ist stark – kein -te!",
+      "explanation": "\"bitten\" (to ask for) is strong: bitten → bat: Er bat mich um Hilfe. \"bittete\" doesn't exist. Don't confuse \"bitten → bat\" with \"bieten → bot\" (to offer)."
+    },
+    {
+      "type": "blank",
+      "question": "Wir ___ letzten Sommer mit dem Zug nach Wien. (fahren)",
+      "answers": [
+        "fuhren"
+      ],
+      "tip": "Starkes Verb: fahren → f_hren.",
+      "explanation": "\"fahren\" is strong with a vowel change a → u: fahren → fuhr → wir fuhren. Same pattern: tragen → trug, schlagen → schlug, waschen → wusch."
+    },
+    {
+      "type": "choice",
+      "question": "Ich ___ dich gestern dreimal an, aber du warst nicht da.",
+      "options": [
+        "rief",
+        "rufte",
+        "riefe"
+      ],
+      "answer": "rief",
+      "tip": "\"anrufen\" ist stark und trennbar: Die Vorsilbe wandert ans Satzende.",
+      "explanation": "\"rufen\" is strong: rufen → rief, so \"anrufen\" becomes \"rief ... an\": Ich rief dich an. \"rufte\" doesn't exist, and \"riefe\" is Konjunktiv II, not simple past."
+    },
+    {
+      "type": "blank",
+      "question": "Als Kind ___ ich nur am Wochenende fernsehen. (dürfen)",
+      "answers": [
+        "durfte"
+      ],
+      "tip": "Modalverb im Präteritum: Der Umlaut verschwindet!",
+      "explanation": "Modal verbs lose their umlaut in the Präteritum and take -te: dürfen → durfte, können → konnte, müssen → musste. \"Als Kind durfte ich ...\" = As a child I was only allowed to ..."
+    }
+  ]
+}

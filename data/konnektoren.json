@@ -1,0 +1,256 @@
+{
+  "id": "konnektoren",
+  "name": "Konnektoren & Satzbau",
+  "icon": "🔗",
+  "description": "weil, obwohl, trotzdem, als, wenn …",
+  "questions": [
+    {
+      "type": "choice",
+      "question": "Ich bleibe heute zu Hause, ___ ich krank bin.",
+      "options": [
+        "weil",
+        "deshalb",
+        "trotzdem"
+      ],
+      "answer": "weil",
+      "tip": "Schau auf das Verb: \"bin\" steht am Ende. Welcher Konnektor schickt das Verb ans Ende?",
+      "explanation": "\"weil\" (because) introduces a subordinate clause, which pushes the verb to the end: ... weil ich krank bin. \"deshalb\" and \"trotzdem\" would need the verb right after them: ... deshalb bleibe ich ..."
+    },
+    {
+      "type": "choice",
+      "question": "Es regnet stark, ___ gehen wir spazieren.",
+      "options": [
+        "trotzdem",
+        "obwohl",
+        "weil"
+      ],
+      "answer": "trotzdem",
+      "tip": "Das Verb \"gehen\" steht direkt nach der Lücke – das passt nicht zu Nebensatz-Konnektoren. Und der Inhalt ist ein Gegensatz.",
+      "explanation": "\"trotzdem\" (nevertheless) is an adverb followed directly by the verb: ..., trotzdem gehen wir spazieren. \"obwohl\" has the same contrastive meaning but sends the verb to the end: Obwohl es regnet, gehen wir ..."
+    },
+    {
+      "type": "choice",
+      "question": "Er ist sehr müde, ___ er geht noch nicht ins Bett.",
+      "options": [
+        "aber",
+        "weil",
+        "obwohl"
+      ],
+      "answer": "aber",
+      "tip": "Nach der Lücke kommt \"er geht\" – normale Wortstellung. Welcher Konnektor ändert die Wortstellung nicht?",
+      "explanation": "\"aber\" is a coordinating conjunction (position 0) — it doesn't change word order: ..., aber er geht noch nicht ins Bett. \"weil\" and \"obwohl\" would force the verb to the end: ... obwohl er müde ist."
+    },
+    {
+      "type": "choice",
+      "question": "___ ich am Wochenende Zeit habe, besuche ich dich.",
+      "options": [
+        "Wenn",
+        "Als",
+        "Ob"
+      ],
+      "answer": "Wenn",
+      "tip": "Es geht um die Zukunft / eine Bedingung – nicht um ein einmaliges Ereignis in der Vergangenheit.",
+      "explanation": "\"wenn\" is used for conditions and for present/future time (\"if/when\"). \"als\" is only for single events in the past, and \"ob\" means \"whether\" in indirect questions."
+    },
+    {
+      "type": "choice",
+      "question": "___ ich ein Kind war, wohnten wir in Izmir.",
+      "options": [
+        "Als",
+        "Wenn",
+        "Wann"
+      ],
+      "answer": "Als",
+      "tip": "Einmalige Zeit oder Phase in der Vergangenheit → nicht \"wenn\"!",
+      "explanation": "\"als\" is used for a single event or period in the past: Als ich ein Kind war ... \"wenn\" in the past would mean \"whenever\" (repeated), and \"wann\" is only a question word (Wann kommst du?)."
+    },
+    {
+      "type": "choice",
+      "question": "Ich weiß nicht, ___ er heute zur Party kommt.",
+      "options": [
+        "ob",
+        "dass",
+        "wenn"
+      ],
+      "answer": "ob",
+      "tip": "Es ist unsicher: Kommt er oder kommt er nicht? Ja oder nein?",
+      "explanation": "\"ob\" (whether) is used when the answer is uncertain — a hidden yes/no question: I don't know whether he's coming. \"dass\" would state it as a fact, which contradicts \"Ich weiß nicht\"."
+    },
+    {
+      "type": "order",
+      "question": "Vervollständige: \"Ich bleibe zu Hause, …\"",
+      "words": [
+        "weil",
+        "ich",
+        "müde",
+        "bin"
+      ],
+      "answers": [
+        "weil ich müde bin"
+      ],
+      "tip": "Nach \"weil\" kommt zuerst das Subjekt – und das Verb wandert ganz ans Ende.",
+      "explanation": "In a \"weil\" clause the order is: weil + subject + ... + verb at the end: \"weil ich müde bin\". Saying \"weil ich bin müde\" is one of the most common mistakes — the verb must go last!"
+    },
+    {
+      "type": "choice",
+      "question": "Zuerst dusche ich, ___ frühstücke ich.",
+      "options": [
+        "dann",
+        "denn",
+        "ob"
+      ],
+      "answer": "dann",
+      "tip": "Reihenfolge am Morgen: zuerst … , … – Vorsicht, \"dann\" und \"denn\" sehen fast gleich aus!",
+      "explanation": "\"dann\" (then) expresses sequence: Zuerst ..., dann ... Don't confuse it with \"denn\" (because), which gives a reason. One letter, completely different meaning!"
+    },
+    {
+      "type": "choice",
+      "question": "Nimm einen Regenschirm mit, ___ es regnet vielleicht später.",
+      "options": [
+        "denn",
+        "weil",
+        "deshalb"
+      ],
+      "answer": "denn",
+      "tip": "Nach der Lücke kommt \"es regnet\" – normale Wortstellung. Welches Wort für \"weil\" ändert die Wortstellung nicht?",
+      "explanation": "\"denn\" also means \"because\" but keeps normal word order (verb in second position): ..., denn es regnet vielleicht später. With \"weil\" the verb would move: ... weil es später vielleicht regnet."
+    },
+    {
+      "type": "choice",
+      "question": "___ er sehr viel arbeitet, verdient er nur wenig Geld.",
+      "options": [
+        "Obwohl",
+        "Weil",
+        "Deshalb"
+      ],
+      "answer": "Obwohl",
+      "tip": "Viel Arbeit, aber wenig Geld – das ist ein Widerspruch!",
+      "explanation": "\"obwohl\" (although) expresses a contradiction between the two clauses: Although he works a lot, he earns little. \"weil\" would claim that working a lot is the reason for earning little."
+    },
+    {
+      "type": "choice",
+      "question": "Ich spare Geld, ___ ich mir ein Auto kaufen kann.",
+      "options": [
+        "damit",
+        "weil",
+        "dass"
+      ],
+      "answer": "damit",
+      "tip": "Warum sparst du? Was ist das Ziel?",
+      "explanation": "\"damit\" (so that) expresses a goal or purpose: I'm saving money so that I can buy a car. \"weil\" would give a reason for saving, but buying a car is the purpose, not the cause."
+    },
+    {
+      "type": "choice",
+      "question": "Ich hoffe, ___ du bald wieder gesund wirst.",
+      "options": [
+        "dass",
+        "ob",
+        "weil"
+      ],
+      "answer": "dass",
+      "tip": "\"hoffen\" drückt einen Wunsch aus, keine Ja/Nein-Frage.",
+      "explanation": "\"dass\" (that) introduces a statement or wish: Ich hoffe, dass ... \"ob\" (whether) only fits open yes/no questions: Ich weiß nicht, ob ... Note the spelling: the conjunction \"dass\" has a double s, unlike the article \"das\"."
+    },
+    {
+      "type": "choice",
+      "question": "Ich habe verschlafen, ___ komme ich zu spät.",
+      "options": [
+        "deshalb",
+        "weil",
+        "obwohl"
+      ],
+      "answer": "deshalb",
+      "tip": "Nach der Lücke folgt sofort das Verb \"komme\" – welcher Konnektor steht auf Position 1?",
+      "explanation": "\"deshalb\" (therefore) states the consequence and occupies position 1, so the verb follows immediately: ..., deshalb komme ich zu spät. \"weil\" gives a reason and would push the verb to the end."
+    },
+    {
+      "type": "choice",
+      "question": "Nimm dir etwas zu essen mit, ___ du unterwegs Hunger bekommst.",
+      "options": [
+        "falls",
+        "dass",
+        "denn"
+      ],
+      "answer": "falls",
+      "tip": "Vielleicht bekommst du Hunger, vielleicht auch nicht – für diesen Fall!",
+      "explanation": "\"falls\" (in case) covers a possible situation: Take food along in case you get hungry. \"denn\" would need normal word order, and \"dass\" doesn't express a condition."
+    },
+    {
+      "type": "choice",
+      "question": "___ er gefrühstückt hatte, ging er zur Arbeit.",
+      "options": [
+        "Nachdem",
+        "Bevor",
+        "Denn"
+      ],
+      "answer": "Nachdem",
+      "tip": "Zuerst das Frühstück, dann die Arbeit. Welche Reihenfolge zeigt der Konnektor?",
+      "explanation": "\"nachdem\" (after) marks the earlier action, which uses a past-before-past tense (Plusquamperfekt: hatte gefrühstückt): After he had eaten breakfast, he went to work. \"bevor\" would reverse the order of events."
+    },
+    {
+      "type": "choice",
+      "question": "___ der Lehrer erklärt, machen sich die Schüler Notizen.",
+      "options": [
+        "Während",
+        "Ob",
+        "Denn"
+      ],
+      "answer": "Während",
+      "tip": "Beide Dinge passieren gleichzeitig.",
+      "explanation": "\"während\" (while) expresses that two things happen at the same time: While the teacher explains, the students take notes. As a preposition it also means \"during\": während des Unterrichts."
+    },
+    {
+      "type": "order",
+      "question": "Vervollständige: „Er kommt zu spät, …“",
+      "words": [
+        "obwohl",
+        "er",
+        "ein",
+        "Taxi",
+        "genommen",
+        "hat"
+      ],
+      "answers": [
+        "obwohl er ein Taxi genommen hat"
+      ],
+      "tip": "Nebensatz: Das konjugierte Verb (\"hat\") geht ganz ans Ende – sogar hinter das Partizip.",
+      "explanation": "In a subordinate clause the conjugated verb goes last, even after the participle: ... obwohl er ein Taxi genommen hat. In a main clause it would be: Er hat ein Taxi genommen."
+    },
+    {
+      "type": "choice",
+      "question": "Zuerst machte er das Abitur, ___ studierte er in München.",
+      "options": [
+        "danach",
+        "denn",
+        "weil"
+      ],
+      "answer": "danach",
+      "tip": "Reihenfolge: zuerst …, ___ … Und nach der Lücke kommt sofort das Verb.",
+      "explanation": "\"danach\" (after that) expresses sequence and takes position 1, so the verb follows directly: ..., danach studierte er in München. Useful sequence words: zuerst, dann, danach, schließlich."
+    },
+    {
+      "type": "choice",
+      "question": "Ich verstehe nicht, ___ diese Kaffeemaschine funktioniert.",
+      "options": [
+        "wie",
+        "dass",
+        "weil"
+      ],
+      "answer": "wie",
+      "tip": "Eine indirekte Frage: Auf welche W-Frage gibt es hier keine Antwort?",
+      "explanation": "Question words like wie, wo, warum, wann can introduce indirect questions: Ich verstehe nicht, wie sie funktioniert = I don't understand how it works. \"dass\" would state a fact, which makes no sense after \"ich verstehe nicht\" here."
+    },
+    {
+      "type": "choice",
+      "question": "Er spricht schon sehr gut Deutsch, ___ er erst seit einem Jahr in Deutschland lebt.",
+      "options": [
+        "obwohl",
+        "weil",
+        "deshalb"
+      ],
+      "answer": "obwohl",
+      "tip": "Sehr gutes Deutsch nach nur einem Jahr – das ist überraschend!",
+      "explanation": "\"obwohl\" (although) marks a surprising contrast: He speaks very good German although he has only lived in Germany for a year. \"weil\" would present it as the logical cause, which doesn't fit \"erst\" (only)."
+    }
+  ]
+}

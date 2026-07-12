@@ -58,16 +58,24 @@ async function init() {
   });
 
   try {
-    const res = await fetch('data/questions.json');
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    state.data = await res.json();
+    const res = await fetch('data/index.json');
+    if (!res.ok) throw new Error('index.json: HTTP ' + res.status);
+    const index = await res.json();
+    const categories = await Promise.all(
+      index.categories.map(async (file) => {
+        const r = await fetch('data/' + file);
+        if (!r.ok) throw new Error(file + ': HTTP ' + r.status);
+        return r.json();
+      })
+    );
+    state.data = { categories };
     showCategories();
   } catch (err) {
     app.innerHTML = '';
     const card = el('div', 'card error');
     card.appendChild(el('h2', null, 'Fehler beim Laden der Fragen 😕'));
     const p1 = el('p');
-    p1.append('Die Datei ', Object.assign(el('code'), { textContent: 'data/questions.json' }), ' konnte nicht geladen werden.');
+    p1.append('Die Fragen-Dateien im Ordner ', Object.assign(el('code'), { textContent: 'data/' }), ' konnten nicht geladen werden (' + err.message + ').');
     const p2 = el('p');
     p2.append(
       'Hinweis: Öffne die Seite über einen lokalen Server (z. B. ',

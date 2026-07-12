@@ -1,0 +1,244 @@
+{
+  "id": "wechselpraepositionen",
+  "name": "Wechselpräpositionen",
+  "icon": "🔄",
+  "description": "Wo? → Dativ · Wohin? → Akkusativ",
+  "questions": [
+    {
+      "type": "choice",
+      "question": "Die Katze springt auf ___ Sofa.",
+      "options": [
+        "das",
+        "dem",
+        "der"
+      ],
+      "answer": "das",
+      "tip": "Frage: Wohin springt die Katze? Bewegung von A nach B!",
+      "explanation": "Movement towards a place (Wohin?) takes the accusative. Das Sofa stays \"das\" in the accusative because it's neuter: auf das Sofa."
+    },
+    {
+      "type": "choice",
+      "question": "Das Buch liegt auf ___ Tisch.",
+      "options": [
+        "dem",
+        "den",
+        "die"
+      ],
+      "answer": "dem",
+      "tip": "Frage: Wo liegt das Buch? Keine Bewegung – nur Position!",
+      "explanation": "Location without movement (Wo?) takes the dative. Der Tisch → dem Tisch: Das Buch liegt auf dem Tisch. \"liegen\" is a classic location verb."
+    },
+    {
+      "type": "blank",
+      "question": "Ich hänge das Bild an ___ Wand. (die Wand)",
+      "answers": [
+        "die"
+      ],
+      "tip": "Wohin hänge ich das Bild? Bewegung → welcher Kasus?",
+      "explanation": "\"hängen\" here describes movement (hanging the picture up), so accusative: an die Wand. Feminine \"die\" stays \"die\" in the accusative. Compare: \"Das Bild hängt an der Wand\" (location → dative)."
+    },
+    {
+      "type": "choice",
+      "question": "Die Kinder spielen in ___ Garten.",
+      "options": [
+        "dem",
+        "den",
+        "das"
+      ],
+      "answer": "dem",
+      "tip": "Die Kinder sind schon dort und bleiben dort. Wo spielen sie?",
+      "explanation": "The children are already in the garden (location, Wo?), so dative: der Garten → dem Garten. In everyday German this contracts to \"im Garten\"."
+    },
+    {
+      "type": "blank",
+      "question": "Er stellt die Milch in ___ Kühlschrank. (der Kühlschrank)",
+      "answers": [
+        "den"
+      ],
+      "tip": "\"stellen\" ist ein Bewegungsverb: Wohin stellt er die Milch?",
+      "explanation": "\"stellen\" (to put/place) always implies movement towards a goal → accusative: der Kühlschrank → den Kühlschrank. The verb pairs to remember: stellen/stehen, legen/liegen, setzen/sitzen, hängen/hängen."
+    },
+    {
+      "type": "choice",
+      "question": "Die Lampe hängt über ___ Tisch.",
+      "options": [
+        "dem",
+        "den",
+        "der"
+      ],
+      "answer": "dem",
+      "tip": "Die Lampe bewegt sich nicht. Wo hängt sie?",
+      "explanation": "The lamp is simply located above the table (Wo?), so dative: über dem Tisch. If you were installing it — \"Ich hänge die Lampe über den Tisch\" — it would be accusative."
+    },
+    {
+      "type": "choice",
+      "question": "Ich lege mein Handy neben ___ Computer.",
+      "options": [
+        "den",
+        "dem",
+        "das"
+      ],
+      "answer": "den",
+      "tip": "\"legen\" = etwas irgendwohin legen. Bewegung!",
+      "explanation": "\"legen\" (to lay something down) is a movement verb → accusative: der Computer → neben den Computer. Its location partner is \"liegen\": Das Handy liegt neben dem Computer."
+    },
+    {
+      "type": "blank",
+      "question": "Das Auto steht vor ___ Haus. (das Haus)",
+      "answers": [
+        "dem"
+      ],
+      "tip": "\"stehen\" beschreibt eine Position, keine Bewegung.",
+      "explanation": "\"stehen\" (to stand) describes location (Wo?) → dative: das Haus → vor dem Haus. Neuter \"das\" becomes \"dem\" in the dative."
+    },
+    {
+      "type": "choice",
+      "question": "Der Hund läuft hinter ___ Baum und versteckt sich.",
+      "options": [
+        "den",
+        "dem",
+        "der"
+      ],
+      "answer": "den",
+      "tip": "Der Hund war vorher woanders – er läuft dorthin. Wohin läuft er?",
+      "explanation": "The dog runs (moves) to a spot behind the tree → direction (Wohin?) → accusative: der Baum → hinter den Baum. If it were already running around back there, you'd use the dative."
+    },
+    {
+      "type": "blank",
+      "question": "Setz dich bitte auf ___ Stuhl! (der Stuhl)",
+      "answers": [
+        "den"
+      ],
+      "tip": "\"sich setzen\" = eine Bewegung zum Stuhl hin.",
+      "explanation": "\"sich setzen\" (to sit down) is the movement partner of \"sitzen\" → accusative: auf den Stuhl. Once you're seated: Ich sitze auf dem Stuhl (dative)."
+    },
+    {
+      "type": "choice",
+      "question": "Zwischen ___ Betten steht ein kleiner Tisch.",
+      "options": [
+        "den",
+        "die",
+        "dem"
+      ],
+      "answer": "den",
+      "tip": "\"Betten\" ist Plural, und der Tisch steht (Position). Wie lautet der Dativ Plural?",
+      "explanation": "Location (Wo?) → dative, and the dative plural article is \"den\" (plus -n on the noun): zwischen den Betten. Tricky because \"den\" looks like a masculine accusative!"
+    },
+    {
+      "type": "order",
+      "question": "Bilde einen Satz:",
+      "words": [
+        "Ich",
+        "hänge",
+        "das",
+        "Poster",
+        "an",
+        "die",
+        "Wand"
+      ],
+      "answers": [
+        "Ich hänge das Poster an die Wand",
+        "Das Poster hänge ich an die Wand",
+        "An die Wand hänge ich das Poster"
+      ],
+      "tip": "Position 2 gehört immer dem Verb. Wohin kommt das Poster?",
+      "explanation": "The conjugated verb must be in second position: \"Ich hänge das Poster an die Wand.\" Since hanging it up is a movement, the preposition \"an\" takes the accusative: an die Wand."
+    },
+    {
+      "type": "choice",
+      "question": "Häng deine Jacke bitte ___ die Garderobe!",
+      "options": [
+        "an",
+        "auf",
+        "unter"
+      ],
+      "answer": "an",
+      "tip": "Für Haken und senkrechte Flächen benutzt man diese Präposition.",
+      "explanation": "\"an\" is used for vertical surfaces and hooks: an die Wand, an die Garderobe. Since you're hanging the jacket up (movement), it takes the accusative: an die Garderobe."
+    },
+    {
+      "type": "blank",
+      "question": "Deine Socken liegen unter ___ Bett. (das Bett)",
+      "answers": [
+        "dem"
+      ],
+      "tip": "\"liegen\" = Position, keine Bewegung. Wo liegen die Socken?",
+      "explanation": "\"liegen\" describes location (Wo?) → dative: das Bett → unter dem Bett. If you were putting them there, it would be accusative: Ich lege die Socken unter das Bett."
+    },
+    {
+      "type": "choice",
+      "question": "Das Poster hängt schon ___ der Wand.",
+      "options": [
+        "an",
+        "auf",
+        "in"
+      ],
+      "answer": "an",
+      "tip": "Senkrechte Flächen (Wand, Tafel, Fenster) haben ihre eigene Präposition.",
+      "explanation": "Vertical surfaces take \"an\": an der Wand, an der Tafel. \"auf\" is for horizontal surfaces (auf dem Tisch). Here the poster is already hanging (location) → dative: an der Wand."
+    },
+    {
+      "type": "choice",
+      "question": "Die Kinder schwimmen ___ See.",
+      "options": [
+        "im",
+        "in den",
+        "ans"
+      ],
+      "answer": "im",
+      "tip": "Sie sind schon im Wasser (Position) – und \"in dem\" kann man verkürzen.",
+      "explanation": "Swimming happens inside the water (location, Wo?) → dative: in dem See → contracted to \"im See\". \"in den See\" (accusative) would mean jumping into it, and \"ans Meer/an den See\" is for going to the shore."
+    },
+    {
+      "type": "blank",
+      "question": "Ich stelle die Blumen in ___ Vase. (die Vase)",
+      "answers": [
+        "die"
+      ],
+      "tip": "\"stellen\" = Bewegung. Wohin kommen die Blumen?",
+      "explanation": "\"stellen\" implies movement towards a goal → accusative. Feminine \"die\" stays \"die\" in the accusative: in die Vase. Afterwards: Die Blumen stehen in der Vase (dative)."
+    },
+    {
+      "type": "choice",
+      "question": "Der Mülleimer steht neben ___ Tür.",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "tip": "\"stehen\" = Position. Und die Tür ist feminin.",
+      "explanation": "Location (Wo?) → dative. Feminine \"die\" becomes \"der\" in the dative: neben der Tür. \"neben die Tür\" would be the direction you move something to."
+    },
+    {
+      "type": "choice",
+      "question": "Wir fahren am Wochenende ___ Meer.",
+      "options": [
+        "ans",
+        "am",
+        "im"
+      ],
+      "answer": "ans",
+      "tip": "\"fahren\" = Bewegung dorthin! an + das = ?",
+      "explanation": "Traveling to the sea is movement (Wohin?) → accusative: an das Meer → contracted to \"ans Meer\". Once you're there: Wir sind am Meer (an dem = am, dative)."
+    },
+    {
+      "type": "order",
+      "question": "Bilde einen Satz:",
+      "words": [
+        "Die",
+        "Katze",
+        "schläft",
+        "unter",
+        "dem",
+        "Tisch"
+      ],
+      "answers": [
+        "Die Katze schläft unter dem Tisch",
+        "Unter dem Tisch schläft die Katze"
+      ],
+      "tip": "Wo schläft die Katze? Position → Dativ. Und das Verb steht auf Position 2.",
+      "explanation": "Sleeping is a location, not a movement → dative: unter dem Tisch. The conjugated verb keeps second position: Die Katze schläft unter dem Tisch — or with inversion: Unter dem Tisch schläft die Katze."
+    }
+  ]
+}
